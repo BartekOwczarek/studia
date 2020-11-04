@@ -1,0 +1,534 @@
+<html>
+	<head>
+		<style>
+			body {
+				margin: 0px;
+				padding: 0px;
+			}
+			#buttons {
+				position: absolute;
+				top: 5px;
+				left: 10px;
+			}
+			#buttons > input {
+				padding: 10px;
+				display: block;
+				margin-top: 5px;
+			}
+		</style>
+		
+	</head>
+	<body data-rsssl=1>
+		<center>
+			<canvas id="myCanvas" width="600" height="600" style="border:1px solid black;">
+			</canvas><br>
+			Kroki 1 - 5 dorysowują kolejne fragmenty królika. Krok 6 rysuje całego królika
+			<div id="buttons">
+				<input type="button" id="step1" value="Krok 1" onclick="step1()">
+				<input type="button" id="step2" value="Krok 2" onclick="step2()">
+				<input type="button" id="step3" value="Krok 3" onclick="step3()">
+				<input type="button" id="step4" value="Krok 4" onclick="step4()">
+				<input type="button" id="step5" value="Krok 5" onclick="step5()">
+				<input type="button" id="step6" value="Krok 6" onclick="step6()">
+				<input type="button" id="clear" value="Wyczyść" onclick="">
+			</div>
+		</center>
+		<script>
+			var canvas = document.getElementById("myCanvas");
+			var context = canvas.getContext("2d");
+			
+			function step1(){
+				var canvas = document.getElementById("myCanvas");
+				var context = canvas.getContext("2d");
+				var x = canvas.width / 2;
+				var y = canvas.height / 2;
+				context.lineWidth = 2.5;
+				context.strokeStyle = 'black';
+				context.moveTo(x, y - 20);
+				
+				context.beginPath();
+				context.arc(x, y, 35, 0.32 * Math.PI, 0.68 * Math.PI, false);
+				context.lineTo(x - 35, y + 60);
+				context.bezierCurveTo(x - 30, y + 90, x - 30, y + 90, x, y + 90);
+				context.bezierCurveTo(x + 30, y + 90, x + 30, y + 90, x + 35, y + 60);
+				context.closePath();
+				context.stroke();
+			}
+			function step2(){
+				var canvas = document.getElementById("myCanvas");
+				var context = canvas.getContext("2d");
+				var x = canvas.width / 2;
+				var y = canvas.height / 2;
+				context.lineWidth = 2.5;
+				context.strokeStyle = 'black';
+				//dolny łuk
+				context.beginPath();
+				context.arc(x, y, 35, 1.18 * Math.PI, 1.82 * Math.PI, true);
+				context.stroke();
+				//lewe ucho
+				context.beginPath();
+				context.moveTo(x - 30, y - 18);
+				context.bezierCurveTo(x - 60, y - 95, x - 25, y - 105, x - 8, y - 34);
+				context.stroke();
+				//prawe ucho
+				context.beginPath();
+				context.moveTo(x + 30, y - 18);
+				context.bezierCurveTo(x + 60, y - 95, x + 25, y - 105, x + 8, y - 34);
+				context.stroke();
+				//górny łuk
+				context.beginPath();
+				context.arc(x, y, 35, 1.58 * Math.PI, 1.42 * Math.PI, true);
+				context.stroke();
+			}
+			function step3(){
+				var canvas = document.getElementById("myCanvas");
+				var context = canvas.getContext("2d");
+				var x = canvas.width / 2;
+				var y = canvas.height / 2;
+				context.lineWidth = 2;
+				
+				context.strokeStyle = 'black';
+				context.fillStyle = "white";
+				//brzuszek
+				context.beginPath();
+				context.moveTo(x - 14, y + 63);
+				context.bezierCurveTo(x - 14, y + 38, x + 14, y + 38, x + 14, y + 63);
+				context.bezierCurveTo(x + 14, y + 88, x - 14, y + 88, x - 14, y + 63);
+				context.stroke();
+				
+				//lewa noga
+				context.lineWidth = 2.5;
+				context.translate(x - 40, y + 75);
+				context.rotate(155 * Math.PI / 180);
+				
+				context.lineWidth = 1.5;
+				context.beginPath();
+				context.moveTo(0, 23);
+				context.bezierCurveTo(-20, 20, -22, -20, 0, -20);
+				context.stroke();
+				
+				context.lineWidth = 2.5;
+				context.beginPath();
+				context.moveTo(-12, 0);
+				context.bezierCurveTo(-12, 30, 12, 30, 12, 0);
+				context.bezierCurveTo(12, -30, -12, -30, -12, 0);
+				context.closePath();
+				context.fill();
+				context.stroke();
+				context.setTransform(1, 0, 0, 1, 0, 0);
+				
+				//prawa noga
+				context.lineWidth = 2.5;
+				context.translate(x + 40, y + 75);
+				context.rotate(205 * Math.PI / 180);
+				
+				context.lineWidth = 1.5;
+				context.beginPath();
+				context.moveTo(0, 23);
+				context.bezierCurveTo(20, 20, 22, -20, 0, -20);
+				context.stroke();
+				
+				context.lineWidth = 2.5;
+				context.beginPath();
+				context.moveTo(-12, 0);
+				context.bezierCurveTo(-12, 30, 12, 30, 12, 0);
+				context.bezierCurveTo(12, -30, -12, -30, -12, 0);
+				context.closePath();
+				context.fill();
+				context.stroke();
+				context.setTransform(1, 0, 0, 1, 0, 0);
+			};
+			function step4(){
+				var canvas = document.getElementById("myCanvas");
+				var context = canvas.getContext("2d");
+				var x = canvas.width / 2;
+				var y = canvas.height / 2;
+				context.lineWidth = 1.5;
+				context.strokeStyle = "black";
+				
+				//lewe ucho
+				context.translate(x, y);
+				context.rotate(162 * Math.PI / 180);
+				context.beginPath();
+				context.moveTo(16, 55);
+				context.bezierCurveTo(16, 85, 4, 85, 4, 55);
+				context.bezierCurveTo(4, 25, 16, 25, 16, 55);
+				context.stroke();
+				context.setTransform(1, 0, 0, 1, 0, 0);
+				
+				//prawe ucho
+				context.translate(x, y);
+				context.rotate(198 * Math.PI / 180);
+				context.beginPath();
+				context.moveTo(-16, 55);
+				context.bezierCurveTo(-16, 85, -4, 85, -4, 55);
+				context.bezierCurveTo(-4, 25, -16, 25, -16, 55);
+				context.stroke();
+				context.setTransform(1, 0, 0, 1, 0, 0);
+				
+				context.lineWidth = 2;
+				context.fillStyle = "white";
+				//lewa łapka
+				context.beginPath();
+				context.moveTo(x - 31, y + 54);
+				context.bezierCurveTo(x - 22, y + 80, x - 5, y + 80, x, y + 70);
+				context.bezierCurveTo(x, y + 60, x - 15, y + 55, x - 20, y + 40);
+				
+				context.fill();
+				context.stroke();
+				
+				//prawa łapka
+				context.beginPath();
+				context.moveTo(x + 31, y + 54);
+				context.bezierCurveTo(x + 22, y + 80, x + 5, y + 80, x, y + 70);
+				context.bezierCurveTo(x, y + 60, x + 15, y + 55, x + 20, y + 40);
+				context.fill();
+				context.stroke();
+			};
+			function step5(){
+				var canvas = document.getElementById("myCanvas");
+				var context = canvas.getContext("2d");
+				var x = canvas.width / 2;
+				var y = canvas.height / 2;
+				context.lineWidth = 1;
+				context.fillStyle = "black";
+				
+				//nos
+				context.beginPath();
+				context.moveTo(x, y + 5);
+				context.bezierCurveTo(x - 15, y + 5, x - 3, y + 13, x, y + 13);
+				context.bezierCurveTo(x + 3, y + 13, x + 15, y + 5, x, y + 5);
+				context.stroke();
+				
+				//lewe oko
+				context.beginPath();
+				context.moveTo(x - 22, y - 10);
+				context.bezierCurveTo(x - 22, y - 16, x - 18, y - 16, x - 18, y - 10);
+				context.bezierCurveTo(x - 18, y - 4, x - 22, y - 4, x - 22, y - 10);
+				context.fill();
+				context.stroke();
+				
+				//prawe oko
+				context.beginPath();
+				context.moveTo(x + 22, y - 10);
+				context.bezierCurveTo(x + 22, y - 16, x + 18, y - 16, x + 18, y - 10);
+				context.bezierCurveTo(x + 18, y - 4, x + 22, y - 4, x + 22, y - 10);
+				context.fill();
+				context.stroke();
+				
+				//lewa stopa
+				context.lineWidth = 1.5;
+				context.translate(x - 40, y + 75);
+				context.rotate(155 * Math.PI / 180);
+				
+				context.beginPath();
+				context.moveTo(6, -5);
+				context.bezierCurveTo(6, 10, -6, 10, -6, -5);
+				context.bezierCurveTo(-6, -20, 6, -20, 6, -5);
+				context.stroke();
+				
+				context.lineWidth = 1;
+				context.beginPath();
+				context.moveTo(1.5, 13);
+				context.bezierCurveTo(1.5, 18, -1.5, 18, -1.5, 13);
+				context.bezierCurveTo(-1.5, 8, 1.5, 8, 1.5, 13);
+				context.stroke();
+				
+				context.rotate(15 * Math.PI / 180);
+				context.beginPath();
+				context.moveTo(-1, 12);
+				context.bezierCurveTo(-1, 17, -4, 17, -4, 12);
+				context.bezierCurveTo(-4, 7, -1, 7, -1, 12);
+				context.stroke();
+				
+				context.rotate(-30 * Math.PI / 180);
+				context.beginPath();
+				context.moveTo(4, 12);
+				context.bezierCurveTo(4, 17, 1, 17, 1, 12);
+				context.bezierCurveTo(1, 7, 4, 7, 4, 12);
+				context.stroke();
+				context.setTransform(1, 0, 0, 1, 0, 0);
+				
+				//prawa stopa
+				context.lineWidth = 1.5;
+				context.translate(x + 40, y + 75);
+				context.rotate(205 * Math.PI / 180);
+				
+				context.beginPath();
+				context.moveTo(6, -5);
+				context.bezierCurveTo(6, 10, -6, 10, -6, -5);
+				context.bezierCurveTo(-6, -20, 6, -20, 6, -5);
+				context.stroke();
+				
+				context.lineWidth = 1;
+				context.beginPath();
+				context.moveTo(1.5, 13);
+				context.bezierCurveTo(1.5, 18, -1.5, 18, -1.5, 13);
+				context.bezierCurveTo(-1.5, 8, 1.5, 8, 1.5, 13);
+				context.stroke();
+				
+				context.rotate(15 * Math.PI / 180);
+				context.beginPath();
+				context.moveTo(-1, 12);
+				context.bezierCurveTo(-1, 17, -4, 17, -4, 12);
+				context.bezierCurveTo(-4, 7, -1, 7, -1, 12);
+				context.stroke();
+				
+				context.rotate(-30 * Math.PI / 180);
+				context.beginPath();
+				context.moveTo(4, 12);
+				context.bezierCurveTo(4, 17, 1, 17, 1, 12);
+				context.bezierCurveTo(1, 7, 4, 7, 4, 12);
+				context.stroke();
+				context.setTransform(1, 0, 0, 1, 0, 0);
+			};
+			function step6(){
+				var canvas = document.getElementById("myCanvas");
+				var context = canvas.getContext("2d");
+				var x = canvas.width / 2;
+				var y = canvas.height / 2;
+				
+				context.lineWidth = 2.5;
+				context.strokeStyle = 'black';
+				context.moveTo(x, y - 20);
+				
+				context.beginPath();
+				context.arc(x, y, 35, 0.32 * Math.PI, 0.68 * Math.PI, false);
+				context.lineTo(x - 35, y + 60);
+				context.bezierCurveTo(x - 30, y + 90, x - 30, y + 90, x, y + 90);
+				context.bezierCurveTo(x + 30, y + 90, x + 30, y + 90, x + 35, y + 60);
+				context.closePath();
+				context.stroke();
+				
+				//dolny łuk
+				context.beginPath();
+				context.arc(x, y, 35, 1.18 * Math.PI, 1.82 * Math.PI, true);
+				context.stroke();
+				//lewe ucho
+				context.beginPath();
+				context.moveTo(x - 30, y - 18);
+				context.bezierCurveTo(x - 60, y - 95, x - 25, y - 105, x - 8, y - 34);
+				context.stroke();
+				//prawe ucho
+				context.beginPath();
+				context.moveTo(x + 30, y - 18);
+				context.bezierCurveTo(x + 60, y - 95, x + 25, y - 105, x + 8, y - 34);
+				context.stroke();
+				//górny łuk
+				context.beginPath();
+				context.arc(x, y, 35, 1.58 * Math.PI, 1.42 * Math.PI, true);
+				context.stroke();
+				
+				context.lineWidth = 2;
+				context.fillStyle = "rgb(250,210,212)";
+				//brzuszek
+				context.beginPath();
+				context.moveTo(x - 14, y + 63);
+				context.bezierCurveTo(x - 14, y + 38, x + 14, y + 38, x + 14, y + 63);
+				context.bezierCurveTo(x + 14, y + 88, x - 14, y + 88, x - 14, y + 63);
+				context.closePath();
+				context.fill();
+				context.stroke();
+				
+				context.fillStyle = "white";
+				//lewa noga
+				context.lineWidth = 2.5;
+				context.translate(x - 40, y + 75);
+				context.rotate(155 * Math.PI / 180);
+				
+				context.lineWidth = 1.5;
+				context.beginPath();
+				context.moveTo(0, 23);
+				context.bezierCurveTo(-20, 20, -22, -20, 0, -20);
+				context.stroke();
+				
+				context.lineWidth = 2.5;
+				context.beginPath();
+				context.moveTo(-12, 0);
+				context.bezierCurveTo(-12, 30, 12, 30, 12, 0);
+				context.bezierCurveTo(12, -30, -12, -30, -12, 0);
+				context.closePath();
+				context.fill();
+				context.stroke();
+				context.setTransform(1, 0, 0, 1, 0, 0);
+				
+				//prawa noga
+				context.lineWidth = 2.5;
+				context.translate(x + 40, y + 75);
+				context.rotate(205 * Math.PI / 180);
+				
+				context.lineWidth = 1.5;
+				context.beginPath();
+				context.moveTo(0, 23);
+				context.bezierCurveTo(20, 20, 22, -20, 0, -20);
+				context.stroke();
+				
+				context.lineWidth = 2.5;
+				context.beginPath();
+				context.moveTo(-12, 0);
+				context.bezierCurveTo(-12, 30, 12, 30, 12, 0);
+				context.bezierCurveTo(12, -30, -12, -30, -12, 0);
+				context.closePath();
+				context.fill();
+				context.stroke();
+				context.setTransform(1, 0, 0, 1, 0, 0);
+				
+				context.lineWidth = 1.5;
+				context.fillStyle = "rgb(250,210,212)";
+				
+				//lewe ucho
+				context.translate(x, y);
+				context.rotate(162 * Math.PI / 180);
+				context.beginPath();
+				context.moveTo(16, 55);
+				context.bezierCurveTo(16, 85, 4, 85, 4, 55);
+				context.bezierCurveTo(4, 25, 16, 25, 16, 55);
+				context.closePath();
+				context.fill();
+				context.stroke();
+				context.setTransform(1, 0, 0, 1, 0, 0);
+				
+				//prawe ucho
+				context.translate(x, y);
+				context.rotate(198 * Math.PI / 180);
+				context.beginPath();
+				context.moveTo(-16, 55);
+				context.bezierCurveTo(-16, 85, -4, 85, -4, 55);
+				context.bezierCurveTo(-4, 25, -16, 25, -16, 55);
+				context.closePath();
+				context.fill();
+				context.stroke();
+				context.setTransform(1, 0, 0, 1, 0, 0);
+				
+				context.lineWidth = 2;
+				context.fillStyle = "white";
+				//lewa łapka
+				context.beginPath();
+				context.moveTo(x - 31, y + 54);
+				context.bezierCurveTo(x - 22, y + 80, x - 5, y + 80, x, y + 70);
+				context.bezierCurveTo(x, y + 60, x - 15, y + 55, x - 20, y + 40);
+				
+				context.fill();
+				context.stroke();
+				
+				//prawa łapka
+				context.beginPath();
+				context.moveTo(x + 31, y + 54);
+				context.bezierCurveTo(x + 22, y + 80, x + 5, y + 80, x, y + 70);
+				context.bezierCurveTo(x, y + 60, x + 15, y + 55, x + 20, y + 40);
+				context.fill();
+				context.stroke();
+				
+				context.lineWidth = 1;
+				context.fillStyle = "rgb(250,210,212)";
+				
+				//nos
+				context.beginPath();
+				context.moveTo(x, y + 5);
+				context.bezierCurveTo(x - 15, y + 5, x - 3, y + 13, x, y + 13);
+				context.bezierCurveTo(x + 3, y + 13, x + 15, y + 5, x, y + 5);
+				context.closePath();
+				context.fill();
+				context.stroke();
+				
+				context.fillStyle = "black";
+				
+				//lewe oko
+				context.beginPath();
+				context.moveTo(x - 22, y - 10);
+				context.bezierCurveTo(x - 22, y - 16, x - 18, y - 16, x - 18, y - 10);
+				context.bezierCurveTo(x - 18, y - 4, x - 22, y - 4, x - 22, y - 10);
+				context.fill();
+				context.stroke();
+				
+				//prawe oko
+				context.beginPath();
+				context.moveTo(x + 22, y - 10);
+				context.bezierCurveTo(x + 22, y - 16, x + 18, y - 16, x + 18, y - 10);
+				context.bezierCurveTo(x + 18, y - 4, x + 22, y - 4, x + 22, y - 10);
+				context.fill();
+				context.stroke();
+				
+				//lewa stopa
+				context.fillStyle = "rgb(250,210,212)";
+				context.lineWidth = 1.5;
+				context.translate(x - 40, y + 75);
+				context.rotate(155 * Math.PI / 180);
+				
+				context.beginPath();
+				context.moveTo(6, -5);
+				context.bezierCurveTo(6, 10, -6, 10, -6, -5);
+				context.bezierCurveTo(-6, -20, 6, -20, 6, -5);
+				context.fill();
+				context.stroke();
+				
+				context.lineWidth = 1;
+				context.beginPath();
+				context.moveTo(1.5, 13);
+				context.bezierCurveTo(1.5, 18, -1.5, 18, -1.5, 13);
+				context.bezierCurveTo(-1.5, 8, 1.5, 8, 1.5, 13);
+				context.fill();
+				context.stroke();
+				
+				context.rotate(15 * Math.PI / 180);
+				context.beginPath();
+				context.moveTo(-1, 12);
+				context.bezierCurveTo(-1, 17, -4, 17, -4, 12);
+				context.bezierCurveTo(-4, 7, -1, 7, -1, 12);
+				context.fill();
+				context.stroke();
+				
+				context.rotate(-30 * Math.PI / 180);
+				context.beginPath();
+				context.moveTo(4, 12);
+				context.bezierCurveTo(4, 17, 1, 17, 1, 12);
+				context.bezierCurveTo(1, 7, 4, 7, 4, 12);
+				context.fill();
+				context.stroke();
+				context.setTransform(1, 0, 0, 1, 0, 0);
+				
+				//prawa stopa
+				context.lineWidth = 1.5;
+				context.translate(x + 40, y + 75);
+				context.rotate(205 * Math.PI / 180);
+				
+				context.beginPath();
+				context.moveTo(6, -5);
+				context.bezierCurveTo(6, 10, -6, 10, -6, -5);
+				context.bezierCurveTo(-6, -20, 6, -20, 6, -5);
+				context.fill();
+				context.stroke();
+				
+				context.lineWidth = 1;
+				context.beginPath();
+				context.moveTo(1.5, 13);
+				context.bezierCurveTo(1.5, 18, -1.5, 18, -1.5, 13);
+				context.bezierCurveTo(-1.5, 8, 1.5, 8, 1.5, 13);
+				context.fill();
+				context.stroke();
+				
+				context.rotate(15 * Math.PI / 180);
+				context.beginPath();
+				context.moveTo(-1, 12);
+				context.bezierCurveTo(-1, 17, -4, 17, -4, 12);
+				context.bezierCurveTo(-4, 7, -1, 7, -1, 12);
+				context.fill();
+				context.stroke();
+				
+				context.rotate(-30 * Math.PI / 180);
+				context.beginPath();
+				context.moveTo(4, 12);
+				context.bezierCurveTo(4, 17, 1, 17, 1, 12);
+				context.bezierCurveTo(1, 7, 4, 7, 4, 12);
+				context.fill();
+				context.stroke();
+				context.setTransform(1, 0, 0, 1, 0, 0);
+			};
+			
+			document.getElementById('clear').addEventListener('click', function() {
+			context.clearRect(0, 0, canvas.width, canvas.height);
+			}, false);
+			
+		</script>
+	</body>
+</html>

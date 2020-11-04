@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <!-- <title>CANVAS COUNTDOWN</title> -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            #myCanvas{
+                border:1px solid black;
+            }
+        </style>
+		<script>
+			//setTimeout(funkcja,czas);
+			window.onload = function(){
+				
+				zegar( 5);
+				
+			};
+			
+			function zegar(cyfra){
+				var canvas = document.getElementById("myCanvas");
+				var context = canvas.getContext("2d");
+				var x = canvas.width / 2;
+				var y = canvas.height / 2;
+				var squareWidth = 100;
+				var ringWidth = 60;
+				context.globalAlpha = 1;
+				context.lineWidth = 2;
+				context.fillStyle = "lightgray";
+				
+				context.clearRect(0, 0, canvas.width, canvas.height);
+				context.strokeStyle = "black";
+				context.beginPath();
+				context.rect(x - squareWidth, y - squareWidth, squareWidth, squareWidth);
+				context.fillRect(x - squareWidth, y - squareWidth, squareWidth, squareWidth);
+				context.stroke();
+				context.rect(x, y - squareWidth, squareWidth, squareWidth);
+				context.fillRect(x, y - squareWidth, squareWidth, squareWidth);
+				context.stroke();
+				context.rect(x - squareWidth, y , squareWidth, squareWidth);
+				context.fillRect(x - squareWidth, y , squareWidth, squareWidth);
+				context.stroke();
+				context.rect(x, y, squareWidth, squareWidth);
+				context.fillRect(x, y, squareWidth, squareWidth);
+				context.stroke();
+				
+				//pierścienie
+				context.beginPath();
+				context.strokeStyle = "white";
+				context.lineWidth = 1;
+				context.arc (x, y, ringWidth, 0, 2* Math.PI, true);
+				context.stroke();
+				context.beginPath();
+				context.arc (x, y, ringWidth - 5, 0, 2* Math.PI, true);
+				context.stroke();
+				
+				context.font = "100pt Calibri";
+                context.fillStyle = "black";
+                // wyśrodkowanie tekstu w poziomie
+                context.textAlign = "center";
+                // wyśrodkowanie tekstu w pionie 
+                context.textBaseline = "middle";
+                context.fillText(cyfra, x, y + 8);
+				
+				if(cyfra != 0){
+					odmierz(1);
+					setTimeout(zegar, 1000, cyfra - 1);
+				}
+			};
+			function odmierz(cwiartka){
+				var canvas = document.getElementById("myCanvas");
+				var context = canvas.getContext("2d");
+				var x = canvas.width / 2;
+				var y = canvas.height / 2;
+				var squareWidth = 100;
+				context.globalAlpha = 0.5;
+				context.fillStyle = "white";
+				context.beginPath();
+				
+				if(cwiartka == 1){
+					context.fillRect(x, y - squareWidth, squareWidth, squareWidth);
+				}
+				else if(cwiartka == 2){
+					context.fillRect(x, y, squareWidth, squareWidth);
+				}
+				else if(cwiartka == 3){
+					context.fillRect(x - squareWidth, y , squareWidth, squareWidth);
+				}
+				else if(cwiartka == 4){
+					context.fillRect(x - squareWidth, y - squareWidth, squareWidth, squareWidth);
+				}
+				setTimeout(odmierz, 250, cwiartka + 1);
+			};
+			
+		</script>
+    </head>
+    <body>
+        <div id="ccc"></div>
+		<center>
+			<canvas id="myCanvas" width="400" height="400">
+				<canvas id="myCanvas2" width="400" height="400">
+					
+				</canvas>
+				<audio autoplay>
+					<source src="countdown2.mp3" type="audio/mpeg">
+				  </audio>
+			</canvas>
+		</center>
+    </body>
+    <script>
+      
+    </script>
+</html>

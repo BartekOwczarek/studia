@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <script>
+            window.onload = function(){
+                // pobranie elementu canvas na podstawie jego identyfikatora
+                var canvas = document.getElementById("myCanvas");
+                // deklaracja kontekstu 2D przy użyciu metody getContext() obiektu canvas
+                var context = canvas.getContext("2d");
+                
+                // ustawienie szerokości linii na 10 pikseli
+                context.lineWidth = 10;
+                // ustawienie koloru linii na niebieski
+                context.strokeStyle = "blue";
+                // ustawienie położenia kursora
+                context.moveTo(50, canvas.height - 50);
+                // rysowanie linii
+                context.lineTo(canvas.width - 50, 50);
+                // wyświetlenie linii przy wykorzystaniu wybranego wcześniej koloru
+                context.stroke();
+            };
+        </script>
+    </head>
+    <body>
+        <canvas id="myCanvas" width="600" height="250" style="border:1px solid black;">
+        </canvas>
+    </body>
+</html>

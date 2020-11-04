@@ -1,0 +1,183 @@
+<html>
+	<head>
+		<script>
+			window.onload = function(){
+				var canvas = document.getElementById("myCanvas");
+				var context = canvas.getContext("2d");
+				
+				// koła olimpijskie
+				context.beginPath();
+				context.lineWidth = 15;
+				context.strokeStyle = "rgb(3,130,203)"; // kolor niebieski
+				context.arc(canvas.width / 2 - 190, canvas.height / 4 - 30, 80, 0 * Math.PI, 3 * Math.PI, false);
+				context.stroke();
+				
+				context.beginPath();
+				context.lineWidth = 21;
+				context.strokeStyle = "white"; // kolor biały
+				context.arc(canvas.width / 2 - 95, canvas.height / 4 + 60, 80, 0 * Math.PI, 3 * Math.PI, false);
+				context.stroke();
+				
+				context.beginPath();
+				context.lineWidth = 15;
+				context.strokeStyle = "rgb(245,196,0)"; // kolor żółty
+				context.arc(canvas.width / 2 - 95, canvas.height / 4 + 60, 80, 0 * Math.PI, 3 * Math.PI, false);
+				context.stroke();
+				
+				context.beginPath();
+				context.lineWidth = 21;
+				context.strokeStyle = "white"; // kolor biały
+				context.arc(canvas.width / 2 - 190, canvas.height / 4 - 30, 80, 2 * Math.PI, 2.2 * Math.PI, false);
+				context.stroke();
+				
+				context.beginPath();
+				context.lineWidth = 15;
+				context.strokeStyle = "rgb(3,130,203)"; // kolor niebieski
+				context.arc(canvas.width / 2 - 190, canvas.height / 4 - 30, 80, 1.9 * Math.PI, 2.3 * Math.PI, false);
+				context.stroke();
+				
+				context.beginPath();
+				context.lineWidth = 21;
+				context.strokeStyle = "white"; // kolor biały
+				context.arc(canvas.width / 2, canvas.height / 4 - 30, 80, 0 * Math.PI, 3 * Math.PI, false);
+				context.stroke();
+				
+				context.beginPath();
+				context.lineWidth = 15;
+				context.strokeStyle = "black"; // kolor czarny
+				context.arc(canvas.width / 2, canvas.height / 4 - 30, 80, 0 * Math.PI, 3 * Math.PI, false);
+				context.stroke();
+				
+				context.beginPath();
+				context.lineWidth = 21;
+				context.strokeStyle = "white"; // kolor biały
+				context.arc(canvas.width / 2 - 95, canvas.height / 4 + 60, 80, 1.5 * Math.PI, 1.7 * Math.PI, false);
+				context.stroke();
+				
+				context.beginPath();
+				context.lineWidth = 15;
+				context.strokeStyle = "rgb(245,196,0)"; // kolor żółty
+				context.arc(canvas.width / 2 - 95, canvas.height / 4 + 60, 80, 1.49 * Math.PI, 1.75 * Math.PI, false);
+				context.stroke();
+				
+				context.beginPath();
+				context.lineWidth = 21;
+				context.strokeStyle = "white"; // kolor biały
+				context.arc(canvas.width / 2 + 95, canvas.height / 4 + 60, 80, 0 * Math.PI, 3 * Math.PI, false);
+				context.stroke();
+				
+				context.beginPath();
+				context.lineWidth = 15;
+				context.strokeStyle = "rgb(2,166,66)"; // kolor zielony
+				context.arc(canvas.width / 2 + 95, canvas.height / 4 + 60, 80, 0 * Math.PI, 3 * Math.PI, false);
+				context.stroke();
+				
+				context.beginPath();
+				context.lineWidth = 21;
+				context.strokeStyle = "white"; // kolor biały
+				context.arc(canvas.width / 2, canvas.height / 4 - 30, 80, 2 * Math.PI, 0.2 * Math.PI, false);
+				context.stroke();
+				
+				context.beginPath();
+				context.lineWidth = 15;
+				context.strokeStyle = "black"; // kolor czarny
+				context.arc(canvas.width / 2, canvas.height / 4 - 30, 80, 1.9 * Math.PI, 0.3 * Math.PI, false);
+				context.stroke();
+				
+				context.beginPath();
+				context.lineWidth = 21;
+				context.strokeStyle = "white"; // kolor biały
+				context.arc(canvas.width / 2 + 190, canvas.height / 4 - 30, 80, 0 * Math.PI, 3 * Math.PI, false);
+				context.stroke();
+				
+				context.beginPath();
+				context.lineWidth = 15;
+				context.strokeStyle = "rgb(244,0,24)"; // kolor czerwony
+				context.arc(canvas.width / 2 + 190, canvas.height / 4 - 30, 80, 0 * Math.PI, 3 * Math.PI, false);
+				context.stroke();
+				
+				context.beginPath();
+				context.lineWidth = 21;
+				context.strokeStyle = "white"; // kolor biały
+				context.arc(canvas.width / 2 + 95, canvas.height / 4 + 60, 80, 1.5 * Math.PI, 1.7 * Math.PI, false);
+				context.stroke();
+				
+				context.beginPath();
+				context.lineWidth = 15;
+				context.strokeStyle = "rgb(2,166,66)"; // kolor zielony
+				context.arc(canvas.width / 2 + 95, canvas.height / 4 + 60, 80, 1.49 * Math.PI, 1.75 * Math.PI, false);
+				context.stroke();
+				
+				
+				
+				//ludzik
+				context.beginPath();
+				context.lineWidth = 26;
+				context.strokeStyle = "rgb(35,31,32)"; // kolor
+				context.arc(canvas.width / 2, canvas.height / 2, 13, 0 * Math.PI,
+				2 * Math.PI, true);
+				context.stroke();
+				
+				//lewa ręka
+				context.beginPath();
+				context.lineWidth = 22
+				context.lineCap = "round";
+				context.moveTo(canvas.width / 2 - 25, canvas.height / 2 + 46);
+				context.lineTo(canvas.width / 2 - 70, canvas.height / 2 + 60);
+				context.stroke();
+								
+				context.beginPath();
+				context.moveTo(canvas.width / 2 - 70, canvas.height / 2 + 60);
+				context.lineTo(canvas.width / 2 - 90, canvas.height / 2 + 20);
+				context.stroke();
+				
+				//prawa ręka
+				context.beginPath();
+				context.moveTo(canvas.width / 2 + 25, canvas.height / 2 + 45);
+				context.lineTo(canvas.width / 2 + 80, canvas.height / 2 - 30);
+				context.stroke();
+				
+				//lewa noga
+				context.beginPath();
+				context.lineWidth = 30
+				context.moveTo(canvas.width / 2 - 15, canvas.height / 2 + 130);
+				context.lineTo(canvas.width / 2 - 40, canvas.height / 2 + 220);
+				context.stroke();
+				
+				//prawa noga
+				context.beginPath();
+				context.lineWidth = 30
+				context.moveTo(canvas.width / 2 + 5, canvas.height / 2 + 140);
+				context.lineTo(canvas.width / 2 + 60, canvas.height / 2 + 125);
+				context.stroke();
+				
+				context.beginPath();
+				context.lineWidth = 30
+				context.moveTo(canvas.width / 2 + 60, canvas.height / 2 + 125);
+				context.lineTo(canvas.width / 2 + 70, canvas.height / 2 + 170);
+				context.stroke();
+				
+				//tułów
+				context.beginPath();
+				context.lineWidth = 60;
+				context.lineCap = "butt";
+				context.strokeStyle = "rgb(35,31,32)" // kolor
+				context.moveTo(canvas.width / 2, canvas.height / 2 + 35);
+				context.lineTo(canvas.width / 2, canvas.height / 2 + 120);
+				context.stroke();
+				
+				context.beginPath();
+				context.strokeStyle = "white" // kolor
+				context.moveTo(canvas.width / 2, canvas.height / 2 + 120);
+				context.lineTo(canvas.width / 2, canvas.height / 2 + 130);
+				context.stroke();
+			};
+		</script>
+	</head>
+	<body>
+		<center>
+			<canvas id="myCanvas" width="600" height="600" style="border:1px solid black;">
+			</canvas>
+		</center>
+	</body>
+</html>

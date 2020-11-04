@@ -1,0 +1,124 @@
+<html>
+	<head>
+		<script>
+			window.onload = function(){
+				var canvas = document.getElementById("myCanvas");
+				var context = canvas.getContext("2d");
+				
+				var rectWidth = 150;
+				var rectHeight = 75;
+				var squareWidth = 25;
+				
+				context.fillStyle = "rgb(9,18,13)";
+				context.fillRect(0, 0, canvas.width, canvas.height);
+				context.rotate(Math.PI / 4);
+				
+				context.translate(squareWidth - 5, 0);
+				context.fillStyle = "rgb(217,217,211)"; //biały
+				context.fillRect(0, 0, squareWidth,squareWidth);
+				
+				context.translate(0, -squareWidth * 2);
+				context.fillStyle = "rgb(217,217,211)"; //biały
+				context.fillRect(0, 0, squareWidth,squareWidth);
+				
+				context.translate(squareWidth * 2, -squareWidth * 3);
+				context.fillStyle = "rgb(206,0,36)"; //czerwony
+				context.fillRect(0, 0, rectHeight, rectWidth);
+				
+				context.translate(0, squareWidth * 7);
+				context.fillStyle = "rgb(217,217,211)"; //biały
+				context.fillRect(0, 0, squareWidth,squareWidth);
+				
+				context.translate(squareWidth * 2, 0);
+				context.fillStyle = "rgb(217,217,211)"; //biały
+				context.fillRect(0, 0, squareWidth,squareWidth);
+				
+				context.translate(0, squareWidth * 2);
+				context.fillStyle = "rgb(217,217,211)"; //biały
+				context.fillRect(0, 0, squareWidth,squareWidth);
+				
+				context.translate(squareWidth * 2, 0);
+				context.fillStyle = "rgb(217,217,211)"; //biały
+				context.fillRect(0, 0, squareWidth,squareWidth);
+				
+				for(var i = 0; i < 6; i++){
+					context.translate(0, -squareWidth * 2);
+					context.fillStyle = "rgb(217,217,211)"; //biały
+					context.fillRect(0, 0, squareWidth,squareWidth);
+				}
+				
+				context.translate(squareWidth * 2, -squareWidth * 2);
+				context.fillStyle = "rgb(217,217,211)"; //biały
+				context.fillRect(0, 0, squareWidth,squareWidth);
+				
+				for(var i = 0; i < 5; i++){
+					context.translate(0, squareWidth * 2);
+					context.fillStyle = "rgb(217,217,211)"; //biały
+					context.fillRect(0, 0, squareWidth,squareWidth);
+				}
+				
+				context.translate(squareWidth * 2, 0);
+				context.fillStyle = "rgb(217,217,211)"; //biały
+				context.fillRect(0, 0, squareWidth,squareWidth);
+				
+				for(var i = 0; i < 3; i++){
+					context.translate(0, -squareWidth * 2);
+					context.fillStyle = "rgb(217,217,211)"; //biały
+					context.fillRect(0, 0, squareWidth,squareWidth);
+				}
+				
+				context.translate(squareWidth * 2, 0);
+				context.fillStyle = "rgb(217,217,211)"; //biały
+				context.fillRect(0, 0, squareWidth,squareWidth);
+				
+				for(var i = 0; i < 3; i++){
+					context.translate(0, squareWidth * 2);
+					context.fillStyle = "rgb(217,217,211)"; //biały
+					context.fillRect(0, 0, squareWidth,squareWidth);
+				}
+				
+				context.translate(squareWidth * 2, 0);
+				context.fillStyle = "rgb(217,217,211)"; //biały
+				context.fillRect(0, 0, squareWidth,squareWidth);
+				
+				context.translate(0, -squareWidth * 7);
+				context.fillStyle = "rgb(0,49,100)"; //niebieski
+				context.fillRect(0, 0, rectHeight, rectWidth);
+				
+				context.translate(squareWidth * 2, squareWidth * 7);
+				context.fillStyle = "rgb(217,217,211)"; //biały
+				context.fillRect(0, 0, squareWidth,squareWidth);
+				
+				context.translate(squareWidth * 2, 0);
+				context.fillStyle = "rgb(217,217,211)"; //biały
+				context.fillRect(0, 0, squareWidth,squareWidth);
+				
+				context.translate(-squareWidth * 2, squareWidth * 2);
+				context.fillStyle = "rgb(217,217,211)"; //biały
+				context.fillRect(0, 0, squareWidth,squareWidth);
+				
+				context.translate(-squareWidth * 2, 0);
+				context.fillStyle = "rgb(217,217,211)"; //biały
+				context.fillRect(0, 0, squareWidth,squareWidth);
+				
+				context.translate(0, squareWidth * 2);
+				context.fillStyle = "rgb(217,217,211)"; //biały
+				context.fillRect(0, 0, squareWidth,squareWidth);
+				
+				context.translate(-squareWidth * 2, squareWidth * 2);
+				context.fillStyle = "rgb(217,217,211)"; //biały
+				context.fillRect(0, 0, squareWidth,squareWidth);
+				
+				context.translate(-squareWidth * 6, 0);
+				context.fillStyle = "rgb(247,211,0)";//zółty
+				context.fillRect(0, 0, rectWidth - squareWidth, rectHeight);
+			}
+		</script>
+	</head>
+	<body>
+		<center>
+			<canvas id="myCanvas" width="350" height="350" style="border:1px solid black;">
+			</canvas>
+		</center>
+	</body>
+</html>
