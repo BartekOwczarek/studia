@@ -1,0 +1,163 @@
+<?xml version="1.1"?>
+<sklep>
+	<adres_lista>
+		<adres id="1">
+			<miasto>Opole</miasto>
+			<kod_poczt>12-345</kod_poczt>
+			<ulica>Dekabrystów</ulica>
+			<nr_ulicy>33</nr_ulicy>
+			<nr_mieszkania>44</nr_mieszkania>
+		</adres>
+		<adres id="2">
+			<miasto>Opole</miasto>
+			<kod_poczt>12-345</kod_poczt>
+			<ulica>Dekabrystów</ulica>
+			<nr_ulicy>33</nr_ulicy>
+			<nr_mieszkania>44</nr_mieszkania>
+		</adres>
+		<adres id="3">
+			<miasto>Opole</miasto>
+			<kod_poczt>12-345</kod_poczt>
+			<ulica>Dekabrystów</ulica>
+			<nr_ulicy>33</nr_ulicy>
+			<nr_mieszkania>44</nr_mieszkania>
+		</adres>
+		<adres id="4">
+			<miasto>Opole</miasto>
+			<kod_poczt>12-345</kod_poczt>
+			<ulica>Dekabrystów</ulica>
+			<nr_ulicy>33</nr_ulicy>
+			<nr_mieszkania>44</nr_mieszkania>
+		</adres>
+	</adres_lista>
+	<pracownik_lista>
+		<pracownik id="1">
+			<imie>Jadwiga</imie>
+			<nazwisko>Musiał</nazwisko>
+			<pesel>02724646708</pesel>
+			<adres_id>1</adres_id>
+			<nr_dowodu>WVR823756</nr_dowodu>
+			<konto_bankowe>110633610013437200417772336120</konto_bankowe>
+			<pensja>2900.41</pensja>
+			<aktywny>T</aktywny>
+		</pracownik>
+		<pracownik id="2">
+			<imie>Jadwiga</imie>
+			<nazwisko>Musiał</nazwisko>
+			<pesel>02724646708</pesel>
+			<adres_id>2</adres_id>
+			<nr_dowodu>WVR823756</nr_dowodu>
+			<konto_bankowe>110633610013437200417772336120</konto_bankowe>
+			<pensja>2900.41</pensja>
+			<aktywny>T</aktywny>
+		</pracownik>
+	</pracownik_lista>
+	<hurtownia_lista>
+		<hurtownia id="1">
+			<adres_id>3</adres_id>
+			<nazwa>Hurtownia sp.k.</nazwa>
+			<telefon>252737545</telefon>
+		</hurtownia>
+		<hurtownia id="2">
+			<adres_id>4</adres_id>
+			<nazwa>Hurtownia sp.k.</nazwa>
+			<telefon>252737545</telefon>
+		</hurtownia>
+	</hurtownia_lista>
+	<produkt_lista>
+		<produkt id="1">
+			<nazwa>Znicz niebieski wysokość 49 cm</nazwa>
+			<opis>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo</opis>
+		</produkt>
+		<produkt id="2">
+			<nazwa>Znicz niebieski wysokość 49 cm</nazwa>
+			<opis>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo</opis>
+		</produkt>
+	</produkt_lista>
+	<produkt_cena_lista>
+		<produkt_cena>
+			<produkt_id>1</produkt_id>
+			<data_od>TO_DATE('7.10.2019', 'DD.MM.YYYY')</data_od>
+			<data_do>NULL</data_do>
+			<cena>17.47</cena>
+		</produkt_cena>
+		<produkt_cena>
+			<produkt_id>2</produkt_id>
+			<data_od>TO_DATE('7.10.2019', 'DD.MM.YYYY')</data_od>
+			<data_do>NULL</data_do>
+			<cena>17.47</cena>
+		</produkt_cena>
+	</produkt_cena_lista>
+	<produkt_cena_w_hurt_lista>
+		<produkt_cena_w_hurt>
+			<produkt_id>1</produkt_id>
+			<hurtownia_id>1</hurtownia_id>
+			<cena>23.44</cena>
+		</produkt_cena_w_hurt>
+		<produkt_cena_w_hurt>
+			<produkt_id>2</produkt_id>
+			<hurtownia_id>2</hurtownia_id>
+			<cena>23.44</cena>
+		</produkt_cena_w_hurt>
+	</produkt_cena_w_hurt_lista>
+	<sprzedaz_lista>
+		<sprzedaz id="1">
+			<pracownik_id>2</pracownik_id>
+			<data>TO_DATE('01.01.2020','DD.MM.YYYY'))</data>
+		</sprzedaz>
+		<sprzedaz id="2">
+			<pracownik_id>2</pracownik_id>
+			<data>TO_DATE('01.01.2020','DD.MM.YYYY'))</data>
+		</sprzedaz>
+	</sprzedaz_lista>
+	<pozycja_sprzedazy_lista>
+		<pozycja_sprzedazy>
+			<produkt_id>1</produkt_id>
+			<sprzedaz_id>1</sprzedaz_id>
+			<ilosc>2</ilosc>
+			<cena>23.23</cena>
+		</pozycja_sprzedazy>
+		<pozycja_sprzedazy>
+			<produkt_id>2</produkt_id>
+			<sprzedaz_id>2</sprzedaz_id>
+			<ilosc>5</ilosc>
+			<cena>11.66</cena>
+		</pozycja_sprzedazy>
+	</pozycja_sprzedazy_lista>
+	<faktura_lista>
+		<faktura id="1">
+			<data>TO_DATE('01.01.2020','DD.MM.YYYY')</data>
+			<hurtownia_id>1</hurtownia_id>
+		</faktura>
+		<faktura id="2">
+			<data>TO_DATE('01.01.2020','DD.MM.YYYY')</data>
+			<hurtownia_id>2</hurtownia_id>
+		</faktura>
+	</faktura_lista>
+	<zamowienie_lista>
+		<zamowienie id="1">
+			<data>TO_DATE('01.01.2020','DD.MM.YYYY')</data>
+			<hurtownia_id>1</hurtownia_id>
+			<faktura_id>1</faktura_id>
+		</zamowienie>
+		<zamowienie id="2">
+			<data>TO_DATE('01.01.2020','DD.MM.YYYY')</data>
+			<hurtownia_id>1</hurtownia_id>
+			<faktura_id>2</faktura_id>
+		</zamowienie>
+	</zamowienie_lista>
+	<pozycja_zamowienia_lista>
+		<pozycja_zamowienia>
+			<produkt_id>2</produkt_id>
+			<zamowienie_id>1</zamowienie_id>
+			<ilosc>3</ilosc>
+			<cena>132.36</cena>
+		</pozycja_zamowienia>
+		<pozycja_zamowienia>
+			<produkt_id>2</produkt_id>
+			<zamowienie_id>2</zamowienie_id>
+			<ilosc>5</ilosc>
+			<cena>17.16</cena>
+		</pozycja_zamowienia>
+	</pozycja_zamowienia_lista>
+</sklep>

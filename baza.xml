@@ -1,0 +1,1404 @@
+<sklep>
+  <adres_lista>
+    <adres id="1">
+      <miasto>Białystok</miasto>
+      <kod_poczt>13-122</kod_poczt>
+      <ulica>Prószkowska</ulica>
+      <nr_ulicy>2</nr_ulicy>
+      <nr_mieszk>NULL</nr_mieszk>
+    </adres>
+    <adres id="2">
+      <miasto>Katowice</miasto>
+      <kod_poczt>80-385</kod_poczt>
+      <ulica>Pomorska</ulica>
+      <nr_ulicy>144d</nr_ulicy>
+      <nr_mieszk>NULL</nr_mieszk>
+    </adres>
+    <adres id="3">
+      <miasto>Korfantów</miasto>
+      <kod_poczt>24-589</kod_poczt>
+      <ulica>Wschodnia</ulica>
+      <nr_ulicy>46d</nr_ulicy>
+      <nr_mieszk>NULL</nr_mieszk>
+    </adres>
+    <adres id="4">
+      <miasto>Rybnik</miasto>
+      <kod_poczt>26-439</kod_poczt>
+      <ulica>Armii Krajowej</ulica>
+      <nr_ulicy>25</nr_ulicy>
+      <nr_mieszk>NULL</nr_mieszk>
+    </adres>
+    <adres id="5">
+      <miasto>Kalisz</miasto>
+      <kod_poczt>20-922</kod_poczt>
+      <ulica>Głogowska</ulica>
+      <nr_ulicy>11f</nr_ulicy>
+      <nr_mieszk>NULL</nr_mieszk>
+    </adres>
+    <adres id="6">
+      <miasto>Zdzieszowice</miasto>
+      <kod_poczt>90-951</kod_poczt>
+      <ulica>Stanisława Spychalskiego</ulica>
+      <nr_ulicy>30</nr_ulicy>
+      <nr_mieszk>NULL</nr_mieszk>
+    </adres>
+    <adres id="7">
+      <miasto>Wrocław</miasto>
+      <kod_poczt>27-136</kod_poczt>
+      <ulica>Ogrodowa</ulica>
+      <nr_ulicy>26</nr_ulicy>
+      <nr_mieszk>19</nr_mieszk>
+    </adres>
+    <adres id="8">
+      <miasto>Olesno</miasto>
+      <kod_poczt>40-193</kod_poczt>
+      <ulica>Błękitna</ulica>
+      <nr_ulicy>67</nr_ulicy>
+      <nr_mieszk>NULL</nr_mieszk>
+    </adres>
+    <adres id="9">
+      <miasto>Lublin</miasto>
+      <kod_poczt>74-572</kod_poczt>
+      <ulica>Głogowska</ulica>
+      <nr_ulicy>51</nr_ulicy>
+      <nr_mieszk>NULL</nr_mieszk>
+    </adres>
+    <adres id="10">
+      <miasto>Katowice</miasto>
+      <kod_poczt>98-287</kod_poczt>
+      <ulica>Fryderyka Chopina</ulica>
+      <nr_ulicy>81</nr_ulicy>
+      <nr_mieszk>NULL</nr_mieszk>
+    </adres>
+    <adres id="11">
+      <miasto>Baborów</miasto>
+      <kod_poczt>98-241</kod_poczt>
+      <ulica>Rolna</ulica>
+      <nr_ulicy>67</nr_ulicy>
+      <nr_mieszk>NULL</nr_mieszk>
+    </adres>
+    <adres id="12">
+      <miasto>Włocławek</miasto>
+      <kod_poczt>94-508</kod_poczt>
+      <ulica>Mieszka I</ulica>
+      <nr_ulicy>33</nr_ulicy>
+      <nr_mieszk>84</nr_mieszk>
+    </adres>
+    <adres id="13">
+      <miasto>Kolonowskie</miasto>
+      <kod_poczt>11-723</kod_poczt>
+      <ulica>Warszawska</ulica>
+      <nr_ulicy>14c</nr_ulicy>
+      <nr_mieszk>NULL</nr_mieszk>
+    </adres>
+    <adres id="14">
+      <miasto>Gorzów Wielkopolski</miasto>
+      <kod_poczt>43-730</kod_poczt>
+      <ulica>Bałtycka</ulica>
+      <nr_ulicy>34g</nr_ulicy>
+      <nr_mieszk>NULL</nr_mieszk>
+    </adres>
+    <adres id="15">
+      <miasto>Zawadzkie</miasto>
+      <kod_poczt>81-477</kod_poczt>
+      <ulica>Jana Adamka</ulica>
+      <nr_ulicy>68</nr_ulicy>
+      <nr_mieszk>90</nr_mieszk>
+    </adres>
+    <adres id="16">
+      <miasto>Brzeg</miasto>
+      <kod_poczt>29-786</kod_poczt>
+      <ulica>Przytulna</ulica>
+      <nr_ulicy>19</nr_ulicy>
+      <nr_mieszk>20</nr_mieszk>
+    </adres>
+    <adres id="17">
+      <miasto>Poznań</miasto>
+      <kod_poczt>46-926</kod_poczt>
+      <ulica>Stefana Batorego</ulica>
+      <nr_ulicy>102e</nr_ulicy>
+      <nr_mieszk>NULL</nr_mieszk>
+    </adres>
+    <adres id="18">
+      <miasto>Bielsko-Biała</miasto>
+      <kod_poczt>32-613</kod_poczt>
+      <ulica>Licealna</ulica>
+      <nr_ulicy>160b</nr_ulicy>
+      <nr_mieszk>NULL</nr_mieszk>
+    </adres>
+    <adres id="19">
+      <miasto>Elbląg</miasto>
+      <kod_poczt>77-884</kod_poczt>
+      <ulica>Warsztatowa</ulica>
+      <nr_ulicy>14</nr_ulicy>
+      <nr_mieszk>NULL</nr_mieszk>
+    </adres>
+    <adres id="20">
+      <miasto>Bydgoszcz</miasto>
+      <kod_poczt>82-746</kod_poczt>
+      <ulica>Aleja Solidarności</ulica>
+      <nr_ulicy>33</nr_ulicy>
+      <nr_mieszk>NULL</nr_mieszk>
+    </adres>
+    <adres id="21">
+      <miasto>Koszalin</miasto>
+      <kod_poczt>60-203</kod_poczt>
+      <ulica>Bażantowa</ulica>
+      <nr_ulicy>60d</nr_ulicy>
+      <nr_mieszk>NULL</nr_mieszk>
+    </adres>
+    <adres id="22">
+      <miasto>Sosnowiec</miasto>
+      <kod_poczt>58-399</kod_poczt>
+      <ulica>Fryderyka Chopina</ulica>
+      <nr_ulicy>2</nr_ulicy>
+      <nr_mieszk>12</nr_mieszk>
+    </adres>
+    <adres id="23">
+      <miasto>Zielona Góra</miasto>
+      <kod_poczt>23-391</kod_poczt>
+      <ulica>Grota-Roweckiego</ulica>
+      <nr_ulicy>50</nr_ulicy>
+      <nr_mieszk>NULL</nr_mieszk>
+    </adres>
+    <adres id="24">
+      <miasto>Rzeszów</miasto>
+      <kod_poczt>97-870</kod_poczt>
+      <ulica>Łąkowa</ulica>
+      <nr_ulicy>168</nr_ulicy>
+      <nr_mieszk>40</nr_mieszk>
+    </adres>
+    <adres id="25">
+      <miasto>Częstochowa</miasto>
+      <kod_poczt>38-272</kod_poczt>
+      <ulica>Stokrotek</ulica>
+      <nr_ulicy>27</nr_ulicy>
+      <nr_mieszk>NULL</nr_mieszk>
+    </adres>
+    <adres id="26">
+      <miasto>Biała</miasto>
+      <kod_poczt>68-957</kod_poczt>
+      <ulica>Szkolna</ulica>
+      <nr_ulicy>168</nr_ulicy>
+      <nr_mieszk>NULL</nr_mieszk>
+    </adres>
+    <adres id="27">
+      <miasto>Bytom</miasto>
+      <kod_poczt>22-389</kod_poczt>
+      <ulica>Bażantowa</ulica>
+      <nr_ulicy>25d</nr_ulicy>
+      <nr_mieszk>NULL</nr_mieszk>
+    </adres>
+    <adres id="28">
+      <miasto>Wołczyn</miasto>
+      <kod_poczt>44-736</kod_poczt>
+      <ulica>Zielona</ulica>
+      <nr_ulicy>53</nr_ulicy>
+      <nr_mieszk>91</nr_mieszk>
+    </adres>
+    <adres id="29">
+      <miasto>Głogówek</miasto>
+      <kod_poczt>91-761</kod_poczt>
+      <ulica>Spacerowa</ulica>
+      <nr_ulicy>164</nr_ulicy>
+      <nr_mieszk>NULL</nr_mieszk>
+    </adres>
+    <adres id="30">
+      <miasto>Kielce</miasto>
+      <kod_poczt>15-602</kod_poczt>
+      <ulica>Aleja Solidarności</ulica>
+      <nr_ulicy>14e</nr_ulicy>
+      <nr_mieszk>NULL</nr_mieszk>
+    </adres>
+    <adres id="31">
+      <miasto>Głuchołazy</miasto>
+      <kod_poczt>79-743</kod_poczt>
+      <ulica>Oleska</ulica>
+      <nr_ulicy>189</nr_ulicy>
+      <nr_mieszk>53</nr_mieszk>
+    </adres>
+    <adres id="32">
+      <miasto>Korfantów</miasto>
+      <kod_poczt>63-616</kod_poczt>
+      <ulica>Kluczborska</ulica>
+      <nr_ulicy>157g</nr_ulicy>
+      <nr_mieszk>57</nr_mieszk>
+    </adres>
+    <adres id="33">
+      <miasto>Namysłów</miasto>
+      <kod_poczt>54-261</kod_poczt>
+      <ulica>Józefa</ulica>
+      <nr_ulicy>187c</nr_ulicy>
+      <nr_mieszk>20</nr_mieszk>
+    </adres>
+    <adres id="34">
+      <miasto>Tychy</miasto>
+      <kod_poczt>27-399</kod_poczt>
+      <ulica>Pomorska</ulica>
+      <nr_ulicy>66</nr_ulicy>
+      <nr_mieszk>NULL</nr_mieszk>
+    </adres>
+    <adres id="35">
+      <miasto>Zdzieszowice</miasto>
+      <kod_poczt>12-985</kod_poczt>
+      <ulica>Kosynierów</ulica>
+      <nr_ulicy>115</nr_ulicy>
+      <nr_mieszk>NULL</nr_mieszk>
+    </adres>
+    <adres id="36">
+      <miasto>Zdzieszowice</miasto>
+      <kod_poczt>62-248</kod_poczt>
+      <ulica>Mazowiecka</ulica>
+      <nr_ulicy>38</nr_ulicy>
+      <nr_mieszk>8</nr_mieszk>
+    </adres>
+    <adres id="37">
+      <miasto>Wrocław</miasto>
+      <kod_poczt>51-297</kod_poczt>
+      <ulica>Wrzosowa</ulica>
+      <nr_ulicy>48f</nr_ulicy>
+      <nr_mieszk>NULL</nr_mieszk>
+    </adres>
+    <adres id="38">
+      <miasto>Katowice</miasto>
+      <kod_poczt>80-339</kod_poczt>
+      <ulica>Ziemi Lubuskiej</ulica>
+      <nr_ulicy>167</nr_ulicy>
+      <nr_mieszk>22</nr_mieszk>
+    </adres>
+    <adres id="39">
+      <miasto>Kolonowskie</miasto>
+      <kod_poczt>61-675</kod_poczt>
+      <ulica>Ludwika Solskiego</ulica>
+      <nr_ulicy>55</nr_ulicy>
+      <nr_mieszk>NULL</nr_mieszk>
+    </adres>
+    <adres id="40">
+      <miasto>Kędzierzyn-Koźle</miasto>
+      <kod_poczt>25-144</kod_poczt>
+      <ulica>Krótka</ulica>
+      <nr_ulicy>192</nr_ulicy>
+      <nr_mieszk>75</nr_mieszk>
+    </adres>
+  </adres_lista>
+  <pracownik_lista>
+    <pracownik id="1">
+      <imie>Dariusz</imie>
+      <nazwisko>Pawlik</nazwisko>
+      <pesel>32313281863</pesel>
+      <adres_id>1</adres_id>
+      <nr_dowodu>OFI323463</nr_dowodu>
+      <konto_bankowe>201375276801047514147327747452</konto_bankowe>
+      <pensja>2600,22</pensja>
+      <aktywny>N</aktywny>
+    </pracownik>
+    <pracownik id="2">
+      <imie>Bronisław</imie>
+      <nazwisko>Zakrzewski</nazwisko>
+      <pesel>18378138624</pesel>
+      <adres_id>2</adres_id>
+      <nr_dowodu>RLS083257</nr_dowodu>
+      <konto_bankowe>635267236711353213468314810723</konto_bankowe>
+      <pensja>3600,66</pensja>
+      <aktywny>T</aktywny>
+    </pracownik>
+    <pracownik id="3">
+      <imie>Juliusz</imie>
+      <nazwisko>Biernacki</nazwisko>
+      <pesel>20018827033</pesel>
+      <adres_id>3</adres_id>
+      <nr_dowodu>VIU607883</nr_dowodu>
+      <konto_bankowe>203563120400058122781245714456</konto_bankowe>
+      <pensja>3700,25</pensja>
+      <aktywny>T</aktywny>
+    </pracownik>
+    <pracownik id="4">
+      <imie>Kornad</imie>
+      <nazwisko>Kaźmierczak</nazwisko>
+      <pesel>53347874236</pesel>
+      <adres_id>4</adres_id>
+      <nr_dowodu>SWO641818</nr_dowodu>
+      <konto_bankowe>577576625658055872114023374003</konto_bankowe>
+      <pensja>2200,53</pensja>
+      <aktywny>N</aktywny>
+    </pracownik>
+    <pracownik id="5">
+      <imie>Marlena</imie>
+      <nazwisko>Marczak</nazwisko>
+      <pesel>47612474676</pesel>
+      <adres_id>5</adres_id>
+      <nr_dowodu>GAT576845</nr_dowodu>
+      <konto_bankowe>431015125083873050881665028272</konto_bankowe>
+      <pensja>3600,94</pensja>
+      <aktywny>T</aktywny>
+    </pracownik>
+    <pracownik id="6">
+      <imie>Dagmara</imie>
+      <nazwisko>Sikora</nazwisko>
+      <pesel>65852576722</pesel>
+      <adres_id>6</adres_id>
+      <nr_dowodu>EIO260437</nr_dowodu>
+      <konto_bankowe>658768432028522803557867078180</konto_bankowe>
+      <pensja>3800,64</pensja>
+      <aktywny>N</aktywny>
+    </pracownik>
+    <pracownik id="7">
+      <imie>Izabela</imie>
+      <nazwisko>Adamczyk</nazwisko>
+      <pesel>61831447835</pesel>
+      <adres_id>7</adres_id>
+      <nr_dowodu>BGI557787</nr_dowodu>
+      <konto_bankowe>717782310511712842333875278542</konto_bankowe>
+      <pensja>3600,84</pensja>
+      <aktywny>T</aktywny>
+    </pracownik>
+    <pracownik id="8">
+      <imie>Donald</imie>
+      <nazwisko>Małecki</nazwisko>
+      <pesel>20380362131</pesel>
+      <adres_id>8</adres_id>
+      <nr_dowodu>BCS153438</nr_dowodu>
+      <konto_bankowe>215026677362865374202548684601</konto_bankowe>
+      <pensja>2800,97</pensja>
+      <aktywny>T</aktywny>
+    </pracownik>
+    <pracownik id="9">
+      <imie>Fabian</imie>
+      <nazwisko>Malinowski</nazwisko>
+      <pesel>42536747580</pesel>
+      <adres_id>9</adres_id>
+      <nr_dowodu>KDT781256</nr_dowodu>
+      <konto_bankowe>663318658605348478330527715234</konto_bankowe>
+      <pensja>3500,94</pensja>
+      <aktywny>N</aktywny>
+    </pracownik>
+    <pracownik id="10">
+      <imie>Grzegorz</imie>
+      <nazwisko>Paluch</nazwisko>
+      <pesel>82161788740</pesel>
+      <adres_id>10</adres_id>
+      <nr_dowodu>RVI028250</nr_dowodu>
+      <konto_bankowe>455033138076015575126382074044</konto_bankowe>
+      <pensja>2000,45</pensja>
+      <aktywny>T</aktywny>
+    </pracownik>
+    <pracownik id="11">
+      <imie>Eliza</imie>
+      <nazwisko>Szulc</nazwisko>
+      <pesel>50365486625</pesel>
+      <adres_id>11</adres_id>
+      <nr_dowodu>PTK320231</nr_dowodu>
+      <konto_bankowe>628481830357828723523157272016</konto_bankowe>
+      <pensja>2700,77</pensja>
+      <aktywny>N</aktywny>
+    </pracownik>
+    <pracownik id="12">
+      <imie>Ludwik</imie>
+      <nazwisko>Szczepaniak</nazwisko>
+      <pesel>07744462665</pesel>
+      <adres_id>12</adres_id>
+      <nr_dowodu>MLP056164</nr_dowodu>
+      <konto_bankowe>611178230787556351674315175456</konto_bankowe>
+      <pensja>2200,75</pensja>
+      <aktywny>T</aktywny>
+    </pracownik>
+    <pracownik id="13">
+      <imie>Maja</imie>
+      <nazwisko>Rosińska</nazwisko>
+      <pesel>56552327677</pesel>
+      <adres_id>13</adres_id>
+      <nr_dowodu>VXQ043803</nr_dowodu>
+      <konto_bankowe>058036626145866740400273865865</konto_bankowe>
+      <pensja>2600,41</pensja>
+      <aktywny>T</aktywny>
+    </pracownik>
+    <pracownik id="14">
+      <imie>Szymon</imie>
+      <nazwisko>Kowalski</nazwisko>
+      <pesel>65245005327</pesel>
+      <adres_id>14</adres_id>
+      <nr_dowodu>EWD033826</nr_dowodu>
+      <konto_bankowe>751516417046761760302285730548</konto_bankowe>
+      <pensja>2000,03</pensja>
+      <aktywny>N</aktywny>
+    </pracownik>
+    <pracownik id="15">
+      <imie>Bronisław</imie>
+      <nazwisko>Walczak</nazwisko>
+      <pesel>46284862602</pesel>
+      <adres_id>15</adres_id>
+      <nr_dowodu>DAE535245</nr_dowodu>
+      <konto_bankowe>547667680476583064434676085235</konto_bankowe>
+      <pensja>2900,67</pensja>
+      <aktywny>N</aktywny>
+    </pracownik>
+    <pracownik id="16">
+      <imie>Klaudia</imie>
+      <nazwisko>Przybyła</nazwisko>
+      <pesel>74251722254</pesel>
+      <adres_id>16</adres_id>
+      <nr_dowodu>ATN506108</nr_dowodu>
+      <konto_bankowe>506623430108431127164544354783</konto_bankowe>
+      <pensja>3900,52</pensja>
+      <aktywny>T</aktywny>
+    </pracownik>
+    <pracownik id="17">
+      <imie>Fryderyk</imie>
+      <nazwisko>Lewicki</nazwisko>
+      <pesel>74372720554</pesel>
+      <adres_id>17</adres_id>
+      <nr_dowodu>IIM678330</nr_dowodu>
+      <konto_bankowe>412586351447032643353387014451</konto_bankowe>
+      <pensja>3000,15</pensja>
+      <aktywny>T</aktywny>
+    </pracownik>
+    <pracownik id="18">
+      <imie>Felicja</imie>
+      <nazwisko>Zych</nazwisko>
+      <pesel>16743580052</pesel>
+      <adres_id>18</adres_id>
+      <nr_dowodu>XEA358660</nr_dowodu>
+      <konto_bankowe>245628808267055647264763842578</konto_bankowe>
+      <pensja>2400,43</pensja>
+      <aktywny>T</aktywny>
+    </pracownik>
+    <pracownik id="19">
+      <imie>Irena</imie>
+      <nazwisko>Kuczyńska</nazwisko>
+      <pesel>11246716847</pesel>
+      <adres_id>19</adres_id>
+      <nr_dowodu>NKQ004854</nr_dowodu>
+      <konto_bankowe>617652201217275356866834571171</konto_bankowe>
+      <pensja>3800,62</pensja>
+      <aktywny>T</aktywny>
+    </pracownik>
+    <pracownik id="20">
+      <imie>Zdzisław</imie>
+      <nazwisko>Przybyła</nazwisko>
+      <pesel>25835056202</pesel>
+      <adres_id>20</adres_id>
+      <nr_dowodu>OCR478876</nr_dowodu>
+      <konto_bankowe>630601182413750065052515450050</konto_bankowe>
+      <pensja>3200,74</pensja>
+      <aktywny>T</aktywny>
+    </pracownik>
+  </pracownik_lista>
+  <hurtownia_lista>
+    <hurtownia id="1">
+      <adres_id>21</adres_id>
+      <nazwa>Hurtownia sp.j.</nazwa>
+      <telefon>284124764</telefon>
+    </hurtownia>
+    <hurtownia id="2">
+      <adres_id>22</adres_id>
+      <nazwa>Hurtownia S.K.A.</nazwa>
+      <telefon>786453037</telefon>
+    </hurtownia>
+    <hurtownia id="3">
+      <adres_id>23</adres_id>
+      <nazwa>Hurtownia sp.j.</nazwa>
+      <telefon>412424002</telefon>
+    </hurtownia>
+    <hurtownia id="4">
+      <adres_id>24</adres_id>
+      <nazwa>Hurtownia sp.j.</nazwa>
+      <telefon>842531442</telefon>
+    </hurtownia>
+    <hurtownia id="5">
+      <adres_id>25</adres_id>
+      <nazwa>Hurtownia sp.k.</nazwa>
+      <telefon>651375854</telefon>
+    </hurtownia>
+    <hurtownia id="6">
+      <adres_id>26</adres_id>
+      <nazwa>Hurtownia sp.j.</nazwa>
+      <telefon>828870608</telefon>
+    </hurtownia>
+    <hurtownia id="7">
+      <adres_id>27</adres_id>
+      <nazwa>Hurtownia sp. z o.o.</nazwa>
+      <telefon>473273600</telefon>
+    </hurtownia>
+    <hurtownia id="8">
+      <adres_id>28</adres_id>
+      <nazwa>Hurtownia sp.p.</nazwa>
+      <telefon>851246875</telefon>
+    </hurtownia>
+    <hurtownia id="9">
+      <adres_id>29</adres_id>
+      <nazwa>Hurtownia S.K.A.</nazwa>
+      <telefon>545016427</telefon>
+    </hurtownia>
+    <hurtownia id="10">
+      <adres_id>30</adres_id>
+      <nazwa>Hurtownia sp.j.</nazwa>
+      <telefon>545318284</telefon>
+    </hurtownia>
+    <hurtownia id="11">
+      <adres_id>31</adres_id>
+      <nazwa>Hurtownia sp.p.</nazwa>
+      <telefon>874023064</telefon>
+    </hurtownia>
+    <hurtownia id="12">
+      <adres_id>32</adres_id>
+      <nazwa>Hurtownia s.c.</nazwa>
+      <telefon>273228120</telefon>
+    </hurtownia>
+    <hurtownia id="13">
+      <adres_id>33</adres_id>
+      <nazwa>Hurtownia sp.j.</nazwa>
+      <telefon>732773060</telefon>
+    </hurtownia>
+    <hurtownia id="14">
+      <adres_id>34</adres_id>
+      <nazwa>Hurtownia sp.k.</nazwa>
+      <telefon>482176047</telefon>
+    </hurtownia>
+    <hurtownia id="15">
+      <adres_id>35</adres_id>
+      <nazwa>Hurtownia S.K.A.</nazwa>
+      <telefon>577616120</telefon>
+    </hurtownia>
+    <hurtownia id="16">
+      <adres_id>36</adres_id>
+      <nazwa>Hurtownia sp.j.</nazwa>
+      <telefon>608364452</telefon>
+    </hurtownia>
+    <hurtownia id="17">
+      <adres_id>37</adres_id>
+      <nazwa>Hurtownia sp. z o.o.</nazwa>
+      <telefon>335852423</telefon>
+    </hurtownia>
+    <hurtownia id="18">
+      <adres_id>38</adres_id>
+      <nazwa>Hurtownia sp.k.</nazwa>
+      <telefon>764158555</telefon>
+    </hurtownia>
+    <hurtownia id="19">
+      <adres_id>39</adres_id>
+      <nazwa>Hurtownia sp.j.</nazwa>
+      <telefon>265774884</telefon>
+    </hurtownia>
+    <hurtownia id="20">
+      <adres_id>40</adres_id>
+      <nazwa>Hurtownia sp.j.</nazwa>
+      <telefon>332741271</telefon>
+    </hurtownia>
+  </hurtownia_lista>
+  <produkt_lista>
+    <produkt id="1">
+      <nazwa>Bukiet kwiatów</nazwa>
+      <opis>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum,</opis>
+    </produkt>
+    <produkt id="2">
+      <nazwa>Wieniec kwiatów narcyz wrzos</nazwa>
+      <opis>Lorem ipsum dolor</opis>
+    </produkt>
+    <produkt id="3">
+      <nazwa>Wkład czas palenia 72h</nazwa>
+      <opis>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus.</opis>
+    </produkt>
+    <produkt id="4">
+      <nazwa>Lilia kolor fioletowy sztuczny</nazwa>
+      <opis>Lorem ipsum dolor sit</opis>
+    </produkt>
+    <produkt id="5">
+      <nazwa>CANTEDESKIA KOLOR ŻÓŁTY SZTUCZNY</nazwa>
+      <opis>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</opis>
+    </produkt>
+    <produkt id="6">
+      <nazwa>Znicz złoty wysokość 46 cm</nazwa>
+      <opis>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus.</opis>
+    </produkt>
+    <produkt id="7">
+      <nazwa>Znicz zielony wysokość 39 cm</nazwa>
+      <opis>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem.</opis>
+    </produkt>
+    <produkt id="8">
+      <nazwa>Hortensja kolor zielony żywy</nazwa>
+      <opis>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus.</opis>
+    </produkt>
+    <produkt id="9">
+      <nazwa>Wkład wysokość 45 cm czas palenia 7h</nazwa>
+      <opis>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in,</opis>
+    </produkt>
+    <produkt id="10">
+      <nazwa>Wieniec kwiatów słonecznik anturium chryzantema</nazwa>
+      <opis>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui</opis>
+    </produkt>
+    <produkt id="11">
+      <nazwa>Znicz złoty wysokość 53 cm</nazwa>
+      <opis>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem.</opis>
+    </produkt>
+    <produkt id="12">
+      <nazwa>Wkład  9 na 14 cm czas palenia 13h</nazwa>
+      <opis>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel</opis>
+    </produkt>
+    <produkt id="13">
+      <nazwa>Wkład wysokość 30 cm czas palenia 68h</nazwa>
+      <opis>Lorem ipsum dolor sit amet, consectetur</opis>
+    </produkt>
+    <produkt id="14">
+      <nazwa>Kosodrzewina kolor czerwony sztuczny</nazwa>
+      <opis>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue,</opis>
+    </produkt>
+    <produkt id="15">
+      <nazwa>Girlanda</nazwa>
+      <opis>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum,</opis>
+    </produkt>
+    <produkt id="16">
+      <nazwa>ZNICZ BIAŁY LED 6 NA 17 CM</nazwa>
+      <opis>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus.</opis>
+    </produkt>
+    <produkt id="17">
+      <nazwa>Znicz czerwony wysokość 35 cm</nazwa>
+      <opis>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at</opis>
+    </produkt>
+    <produkt id="18">
+      <nazwa>Wkład  9 na 20 cm czas palenia 21h</nazwa>
+      <opis>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula</opis>
+    </produkt>
+    <produkt id="19">
+      <nazwa>WKŁAD CZAS PALENIA 9H</nazwa>
+      <opis>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque</opis>
+    </produkt>
+    <produkt id="20">
+      <nazwa>Bukiet kwiatów</nazwa>
+      <opis>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit</opis>
+    </produkt>
+  </produkt_lista>
+  <produkt_cena_lista>
+    <produkt_cena>
+      <produkt_id>1</produkt_id>
+      <data_od>27.10.2018 00:00:00</data_od>
+      <data_do>NULL</data_do>
+      <cena>2,28</cena>
+    </produkt_cena>
+    <produkt_cena>
+      <produkt_id>2</produkt_id>
+      <data_od>07.06.2017 00:00:00</data_od>
+      <data_do>NULL</data_do>
+      <cena>18,41</cena>
+    </produkt_cena>
+    <produkt_cena>
+      <produkt_id>3</produkt_id>
+      <data_od>08.01.2017 00:00:00</data_od>
+      <data_do>NULL</data_do>
+      <cena>40,31</cena>
+    </produkt_cena>
+    <produkt_cena>
+      <produkt_id>4</produkt_id>
+      <data_od>05.02.2019 00:00:00</data_od>
+      <data_do>NULL</data_do>
+      <cena>8,92</cena>
+    </produkt_cena>
+    <produkt_cena>
+      <produkt_id>5</produkt_id>
+      <data_od>27.04.2017 00:00:00</data_od>
+      <data_do>NULL</data_do>
+      <cena>11,07</cena>
+    </produkt_cena>
+    <produkt_cena>
+      <produkt_id>6</produkt_id>
+      <data_od>25.04.2017 00:00:00</data_od>
+      <data_do>NULL</data_do>
+      <cena>7,11</cena>
+    </produkt_cena>
+    <produkt_cena>
+      <produkt_id>7</produkt_id>
+      <data_od>03.11.2018 00:00:00</data_od>
+      <data_do>NULL</data_do>
+      <cena>5,56</cena>
+    </produkt_cena>
+    <produkt_cena>
+      <produkt_id>8</produkt_id>
+      <data_od>20.07.2017 00:00:00</data_od>
+      <data_do>NULL</data_do>
+      <cena>4,15</cena>
+    </produkt_cena>
+    <produkt_cena>
+      <produkt_id>9</produkt_id>
+      <data_od>13.07.2019 00:00:00</data_od>
+      <data_do>NULL</data_do>
+      <cena>2,98</cena>
+    </produkt_cena>
+    <produkt_cena>
+      <produkt_id>10</produkt_id>
+      <data_od>24.10.2017 00:00:00</data_od>
+      <data_do>NULL</data_do>
+      <cena>30,73</cena>
+    </produkt_cena>
+    <produkt_cena>
+      <produkt_id>11</produkt_id>
+      <data_od>09.04.2018 00:00:00</data_od>
+      <data_do>NULL</data_do>
+      <cena>1,6</cena>
+    </produkt_cena>
+    <produkt_cena>
+      <produkt_id>12</produkt_id>
+      <data_od>21.10.2018 00:00:00</data_od>
+      <data_do>NULL</data_do>
+      <cena>6,7</cena>
+    </produkt_cena>
+    <produkt_cena>
+      <produkt_id>13</produkt_id>
+      <data_od>27.07.2017 00:00:00</data_od>
+      <data_do>NULL</data_do>
+      <cena>36,49</cena>
+    </produkt_cena>
+    <produkt_cena>
+      <produkt_id>14</produkt_id>
+      <data_od>04.01.2017 00:00:00</data_od>
+      <data_do>NULL</data_do>
+      <cena>64,53</cena>
+    </produkt_cena>
+    <produkt_cena>
+      <produkt_id>15</produkt_id>
+      <data_od>08.08.2018 00:00:00</data_od>
+      <data_do>NULL</data_do>
+      <cena>50,47</cena>
+    </produkt_cena>
+    <produkt_cena>
+      <produkt_id>16</produkt_id>
+      <data_od>24.07.2018 00:00:00</data_od>
+      <data_do>NULL</data_do>
+      <cena>17,86</cena>
+    </produkt_cena>
+    <produkt_cena>
+      <produkt_id>17</produkt_id>
+      <data_od>17.01.2017 00:00:00</data_od>
+      <data_do>NULL</data_do>
+      <cena>9,33</cena>
+    </produkt_cena>
+    <produkt_cena>
+      <produkt_id>18</produkt_id>
+      <data_od>11.07.2018 00:00:00</data_od>
+      <data_do>NULL</data_do>
+      <cena>8,45</cena>
+    </produkt_cena>
+    <produkt_cena>
+      <produkt_id>19</produkt_id>
+      <data_od>09.05.2017 00:00:00</data_od>
+      <data_do>NULL</data_do>
+      <cena>13,1</cena>
+    </produkt_cena>
+    <produkt_cena>
+      <produkt_id>20</produkt_id>
+      <data_od>11.07.2018 00:00:00</data_od>
+      <data_do>NULL</data_do>
+      <cena>33,32</cena>
+    </produkt_cena>
+  </produkt_cena_lista>
+  <produkt_cena_w_hurt_lista>
+    <produkt_cena_w_hurt>
+      <produkt_id>1</produkt_id>
+      <hurtownia_id>8</hurtownia_id>
+      <cena>36,2</cena>
+    </produkt_cena_w_hurt>
+    <produkt_cena_w_hurt>
+      <produkt_id>2</produkt_id>
+      <hurtownia_id>16</hurtownia_id>
+      <cena>61,89</cena>
+    </produkt_cena_w_hurt>
+    <produkt_cena_w_hurt>
+      <produkt_id>3</produkt_id>
+      <hurtownia_id>15</hurtownia_id>
+      <cena>7,54</cena>
+    </produkt_cena_w_hurt>
+    <produkt_cena_w_hurt>
+      <produkt_id>4</produkt_id>
+      <hurtownia_id>18</hurtownia_id>
+      <cena>12,78</cena>
+    </produkt_cena_w_hurt>
+    <produkt_cena_w_hurt>
+      <produkt_id>5</produkt_id>
+      <hurtownia_id>6</hurtownia_id>
+      <cena>4,92</cena>
+    </produkt_cena_w_hurt>
+    <produkt_cena_w_hurt>
+      <produkt_id>6</produkt_id>
+      <hurtownia_id>12</hurtownia_id>
+      <cena>49,84</cena>
+    </produkt_cena_w_hurt>
+    <produkt_cena_w_hurt>
+      <produkt_id>7</produkt_id>
+      <hurtownia_id>4</hurtownia_id>
+      <cena>18,65</cena>
+    </produkt_cena_w_hurt>
+    <produkt_cena_w_hurt>
+      <produkt_id>8</produkt_id>
+      <hurtownia_id>14</hurtownia_id>
+      <cena>11,5</cena>
+    </produkt_cena_w_hurt>
+    <produkt_cena_w_hurt>
+      <produkt_id>9</produkt_id>
+      <hurtownia_id>10</hurtownia_id>
+      <cena>13,75</cena>
+    </produkt_cena_w_hurt>
+    <produkt_cena_w_hurt>
+      <produkt_id>10</produkt_id>
+      <hurtownia_id>15</hurtownia_id>
+      <cena>15,66</cena>
+    </produkt_cena_w_hurt>
+    <produkt_cena_w_hurt>
+      <produkt_id>11</produkt_id>
+      <hurtownia_id>15</hurtownia_id>
+      <cena>14,09</cena>
+    </produkt_cena_w_hurt>
+    <produkt_cena_w_hurt>
+      <produkt_id>12</produkt_id>
+      <hurtownia_id>2</hurtownia_id>
+      <cena>21,42</cena>
+    </produkt_cena_w_hurt>
+    <produkt_cena_w_hurt>
+      <produkt_id>13</produkt_id>
+      <hurtownia_id>11</hurtownia_id>
+      <cena>56,9</cena>
+    </produkt_cena_w_hurt>
+    <produkt_cena_w_hurt>
+      <produkt_id>14</produkt_id>
+      <hurtownia_id>11</hurtownia_id>
+      <cena>46,59</cena>
+    </produkt_cena_w_hurt>
+    <produkt_cena_w_hurt>
+      <produkt_id>15</produkt_id>
+      <hurtownia_id>18</hurtownia_id>
+      <cena>1,73</cena>
+    </produkt_cena_w_hurt>
+    <produkt_cena_w_hurt>
+      <produkt_id>16</produkt_id>
+      <hurtownia_id>15</hurtownia_id>
+      <cena>4,49</cena>
+    </produkt_cena_w_hurt>
+    <produkt_cena_w_hurt>
+      <produkt_id>17</produkt_id>
+      <hurtownia_id>10</hurtownia_id>
+      <cena>17,7</cena>
+    </produkt_cena_w_hurt>
+    <produkt_cena_w_hurt>
+      <produkt_id>18</produkt_id>
+      <hurtownia_id>11</hurtownia_id>
+      <cena>13,03</cena>
+    </produkt_cena_w_hurt>
+    <produkt_cena_w_hurt>
+      <produkt_id>19</produkt_id>
+      <hurtownia_id>13</hurtownia_id>
+      <cena>4,39</cena>
+    </produkt_cena_w_hurt>
+    <produkt_cena_w_hurt>
+      <produkt_id>20</produkt_id>
+      <hurtownia_id>2</hurtownia_id>
+      <cena>50,46</cena>
+    </produkt_cena_w_hurt>
+  </produkt_cena_w_hurt_lista>
+  <sprzedaz_lista>
+    <sprzedaz id="1">
+      <pracownik_id>15</pracownik_id>
+      <data>01.01.2020 00:00:00</data>
+    </sprzedaz>
+    <sprzedaz id="2">
+      <pracownik_id>10</pracownik_id>
+      <data>01.01.2020 00:00:00</data>
+    </sprzedaz>
+    <sprzedaz id="3">
+      <pracownik_id>3</pracownik_id>
+      <data>01.01.2020 00:00:00</data>
+    </sprzedaz>
+    <sprzedaz id="4">
+      <pracownik_id>18</pracownik_id>
+      <data>01.01.2020 00:00:00</data>
+    </sprzedaz>
+    <sprzedaz id="5">
+      <pracownik_id>18</pracownik_id>
+      <data>01.01.2020 00:00:00</data>
+    </sprzedaz>
+    <sprzedaz id="6">
+      <pracownik_id>12</pracownik_id>
+      <data>01.01.2020 00:00:00</data>
+    </sprzedaz>
+    <sprzedaz id="7">
+      <pracownik_id>18</pracownik_id>
+      <data>01.01.2020 00:00:00</data>
+    </sprzedaz>
+    <sprzedaz id="8">
+      <pracownik_id>18</pracownik_id>
+      <data>01.01.2020 00:00:00</data>
+    </sprzedaz>
+    <sprzedaz id="9">
+      <pracownik_id>10</pracownik_id>
+      <data>01.01.2020 00:00:00</data>
+    </sprzedaz>
+    <sprzedaz id="10">
+      <pracownik_id>2</pracownik_id>
+      <data>01.01.2020 00:00:00</data>
+    </sprzedaz>
+    <sprzedaz id="11">
+      <pracownik_id>16</pracownik_id>
+      <data>01.01.2020 00:00:00</data>
+    </sprzedaz>
+    <sprzedaz id="12">
+      <pracownik_id>2</pracownik_id>
+      <data>01.01.2020 00:00:00</data>
+    </sprzedaz>
+    <sprzedaz id="13">
+      <pracownik_id>5</pracownik_id>
+      <data>01.01.2020 00:00:00</data>
+    </sprzedaz>
+    <sprzedaz id="14">
+      <pracownik_id>1</pracownik_id>
+      <data>01.01.2020 00:00:00</data>
+    </sprzedaz>
+    <sprzedaz id="15">
+      <pracownik_id>18</pracownik_id>
+      <data>01.01.2020 00:00:00</data>
+    </sprzedaz>
+    <sprzedaz id="16">
+      <pracownik_id>10</pracownik_id>
+      <data>01.01.2020 00:00:00</data>
+    </sprzedaz>
+    <sprzedaz id="17">
+      <pracownik_id>1</pracownik_id>
+      <data>01.01.2020 00:00:00</data>
+    </sprzedaz>
+    <sprzedaz id="18">
+      <pracownik_id>4</pracownik_id>
+      <data>01.01.2020 00:00:00</data>
+    </sprzedaz>
+    <sprzedaz id="19">
+      <pracownik_id>12</pracownik_id>
+      <data>01.01.2020 00:00:00</data>
+    </sprzedaz>
+    <sprzedaz id="20">
+      <pracownik_id>5</pracownik_id>
+      <data>01.01.2020 00:00:00</data>
+    </sprzedaz>
+  </sprzedaz_lista>
+  <pozycja_sprzedazy_lista>
+    <pozycja_sprzedazy>
+      <produkt_id>13</produkt_id>
+      <sprzedaz_id>1</sprzedaz_id>
+      <ilosc>4</ilosc>
+      <cena>51,29</cena>
+    </pozycja_sprzedazy>
+    <pozycja_sprzedazy>
+      <produkt_id>5</produkt_id>
+      <sprzedaz_id>2</sprzedaz_id>
+      <ilosc>2</ilosc>
+      <cena>11,26</cena>
+    </pozycja_sprzedazy>
+    <pozycja_sprzedazy>
+      <produkt_id>18</produkt_id>
+      <sprzedaz_id>3</sprzedaz_id>
+      <ilosc>1</ilosc>
+      <cena>3,24</cena>
+    </pozycja_sprzedazy>
+    <pozycja_sprzedazy>
+      <produkt_id>12</produkt_id>
+      <sprzedaz_id>4</sprzedaz_id>
+      <ilosc>18</ilosc>
+      <cena>4,49</cena>
+    </pozycja_sprzedazy>
+    <pozycja_sprzedazy>
+      <produkt_id>19</produkt_id>
+      <sprzedaz_id>5</sprzedaz_id>
+      <ilosc>16</ilosc>
+      <cena>40,67</cena>
+    </pozycja_sprzedazy>
+    <pozycja_sprzedazy>
+      <produkt_id>7</produkt_id>
+      <sprzedaz_id>6</sprzedaz_id>
+      <ilosc>3</ilosc>
+      <cena>15,12</cena>
+    </pozycja_sprzedazy>
+    <pozycja_sprzedazy>
+      <produkt_id>12</produkt_id>
+      <sprzedaz_id>7</sprzedaz_id>
+      <ilosc>1</ilosc>
+      <cena>24,87</cena>
+    </pozycja_sprzedazy>
+    <pozycja_sprzedazy>
+      <produkt_id>11</produkt_id>
+      <sprzedaz_id>8</sprzedaz_id>
+      <ilosc>3</ilosc>
+      <cena>10,68</cena>
+    </pozycja_sprzedazy>
+    <pozycja_sprzedazy>
+      <produkt_id>1</produkt_id>
+      <sprzedaz_id>9</sprzedaz_id>
+      <ilosc>2</ilosc>
+      <cena>40,72</cena>
+    </pozycja_sprzedazy>
+    <pozycja_sprzedazy>
+      <produkt_id>7</produkt_id>
+      <sprzedaz_id>10</sprzedaz_id>
+      <ilosc>2</ilosc>
+      <cena>14,82</cena>
+    </pozycja_sprzedazy>
+    <pozycja_sprzedazy>
+      <produkt_id>10</produkt_id>
+      <sprzedaz_id>11</sprzedaz_id>
+      <ilosc>2</ilosc>
+      <cena>63,67</cena>
+    </pozycja_sprzedazy>
+    <pozycja_sprzedazy>
+      <produkt_id>5</produkt_id>
+      <sprzedaz_id>12</sprzedaz_id>
+      <ilosc>4</ilosc>
+      <cena>104,73</cena>
+    </pozycja_sprzedazy>
+    <pozycja_sprzedazy>
+      <produkt_id>3</produkt_id>
+      <sprzedaz_id>13</sprzedaz_id>
+      <ilosc>11</ilosc>
+      <cena>11,01</cena>
+    </pozycja_sprzedazy>
+    <pozycja_sprzedazy>
+      <produkt_id>19</produkt_id>
+      <sprzedaz_id>14</sprzedaz_id>
+      <ilosc>4</ilosc>
+      <cena>12,01</cena>
+    </pozycja_sprzedazy>
+    <pozycja_sprzedazy>
+      <produkt_id>7</produkt_id>
+      <sprzedaz_id>15</sprzedaz_id>
+      <ilosc>1</ilosc>
+      <cena>4,21</cena>
+    </pozycja_sprzedazy>
+    <pozycja_sprzedazy>
+      <produkt_id>14</produkt_id>
+      <sprzedaz_id>16</sprzedaz_id>
+      <ilosc>3</ilosc>
+      <cena>3,74</cena>
+    </pozycja_sprzedazy>
+    <pozycja_sprzedazy>
+      <produkt_id>9</produkt_id>
+      <sprzedaz_id>17</sprzedaz_id>
+      <ilosc>5</ilosc>
+      <cena>59,72</cena>
+    </pozycja_sprzedazy>
+    <pozycja_sprzedazy>
+      <produkt_id>18</produkt_id>
+      <sprzedaz_id>18</sprzedaz_id>
+      <ilosc>4</ilosc>
+      <cena>44,63</cena>
+    </pozycja_sprzedazy>
+    <pozycja_sprzedazy>
+      <produkt_id>5</produkt_id>
+      <sprzedaz_id>19</sprzedaz_id>
+      <ilosc>4</ilosc>
+      <cena>8,31</cena>
+    </pozycja_sprzedazy>
+    <pozycja_sprzedazy>
+      <produkt_id>1</produkt_id>
+      <sprzedaz_id>20</sprzedaz_id>
+      <ilosc>4</ilosc>
+      <cena>8,41</cena>
+    </pozycja_sprzedazy>
+  </pozycja_sprzedazy_lista>
+  <faktura_lista>
+    <faktura id="1">
+      <data>01.01.2020 00:00:00</data>
+      <hurtownia_id>9</hurtownia_id>
+    </faktura>
+    <faktura id="2">
+      <data>01.01.2020 00:00:00</data>
+      <hurtownia_id>17</hurtownia_id>
+    </faktura>
+    <faktura id="3">
+      <data>01.01.2020 00:00:00</data>
+      <hurtownia_id>5</hurtownia_id>
+    </faktura>
+    <faktura id="4">
+      <data>01.01.2020 00:00:00</data>
+      <hurtownia_id>11</hurtownia_id>
+    </faktura>
+    <faktura id="5">
+      <data>01.01.2020 00:00:00</data>
+      <hurtownia_id>3</hurtownia_id>
+    </faktura>
+    <faktura id="6">
+      <data>01.01.2020 00:00:00</data>
+      <hurtownia_id>9</hurtownia_id>
+    </faktura>
+    <faktura id="7">
+      <data>01.01.2020 00:00:00</data>
+      <hurtownia_id>2</hurtownia_id>
+    </faktura>
+    <faktura id="8">
+      <data>01.01.2020 00:00:00</data>
+      <hurtownia_id>16</hurtownia_id>
+    </faktura>
+    <faktura id="9">
+      <data>01.01.2020 00:00:00</data>
+      <hurtownia_id>17</hurtownia_id>
+    </faktura>
+    <faktura id="10">
+      <data>01.01.2020 00:00:00</data>
+      <hurtownia_id>15</hurtownia_id>
+    </faktura>
+    <faktura id="11">
+      <data>01.01.2020 00:00:00</data>
+      <hurtownia_id>11</hurtownia_id>
+    </faktura>
+    <faktura id="12">
+      <data>01.01.2020 00:00:00</data>
+      <hurtownia_id>15</hurtownia_id>
+    </faktura>
+    <faktura id="13">
+      <data>01.01.2020 00:00:00</data>
+      <hurtownia_id>16</hurtownia_id>
+    </faktura>
+    <faktura id="14">
+      <data>01.01.2020 00:00:00</data>
+      <hurtownia_id>3</hurtownia_id>
+    </faktura>
+    <faktura id="15">
+      <data>01.01.2020 00:00:00</data>
+      <hurtownia_id>2</hurtownia_id>
+    </faktura>
+    <faktura id="16">
+      <data>01.01.2020 00:00:00</data>
+      <hurtownia_id>2</hurtownia_id>
+    </faktura>
+    <faktura id="17">
+      <data>01.01.2020 00:00:00</data>
+      <hurtownia_id>4</hurtownia_id>
+    </faktura>
+    <faktura id="18">
+      <data>01.01.2020 00:00:00</data>
+      <hurtownia_id>9</hurtownia_id>
+    </faktura>
+    <faktura id="19">
+      <data>01.01.2020 00:00:00</data>
+      <hurtownia_id>2</hurtownia_id>
+    </faktura>
+    <faktura id="20">
+      <data>01.01.2020 00:00:00</data>
+      <hurtownia_id>15</hurtownia_id>
+    </faktura>
+  </faktura_lista>
+  <zamowienie_lista>
+    <zamowienie id="1">
+      <data>01.01.2020 00:00:00</data>
+      <hurtownia_id>17</hurtownia_id>
+      <faktura_id>1</faktura_id>
+    </zamowienie>
+    <zamowienie id="2">
+      <data>01.01.2020 00:00:00</data>
+      <hurtownia_id>12</hurtownia_id>
+      <faktura_id>2</faktura_id>
+    </zamowienie>
+    <zamowienie id="3">
+      <data>01.01.2020 00:00:00</data>
+      <hurtownia_id>2</hurtownia_id>
+      <faktura_id>3</faktura_id>
+    </zamowienie>
+    <zamowienie id="4">
+      <data>01.01.2020 00:00:00</data>
+      <hurtownia_id>16</hurtownia_id>
+      <faktura_id>4</faktura_id>
+    </zamowienie>
+    <zamowienie id="5">
+      <data>01.01.2020 00:00:00</data>
+      <hurtownia_id>5</hurtownia_id>
+      <faktura_id>5</faktura_id>
+    </zamowienie>
+    <zamowienie id="6">
+      <data>01.01.2020 00:00:00</data>
+      <hurtownia_id>7</hurtownia_id>
+      <faktura_id>6</faktura_id>
+    </zamowienie>
+    <zamowienie id="7">
+      <data>01.01.2020 00:00:00</data>
+      <hurtownia_id>17</hurtownia_id>
+      <faktura_id>7</faktura_id>
+    </zamowienie>
+    <zamowienie id="8">
+      <data>01.01.2020 00:00:00</data>
+      <hurtownia_id>7</hurtownia_id>
+      <faktura_id>8</faktura_id>
+    </zamowienie>
+    <zamowienie id="9">
+      <data>01.01.2020 00:00:00</data>
+      <hurtownia_id>5</hurtownia_id>
+      <faktura_id>9</faktura_id>
+    </zamowienie>
+    <zamowienie id="10">
+      <data>01.01.2020 00:00:00</data>
+      <hurtownia_id>14</hurtownia_id>
+      <faktura_id>10</faktura_id>
+    </zamowienie>
+    <zamowienie id="11">
+      <data>01.01.2020 00:00:00</data>
+      <hurtownia_id>15</hurtownia_id>
+      <faktura_id>11</faktura_id>
+    </zamowienie>
+    <zamowienie id="12">
+      <data>01.01.2020 00:00:00</data>
+      <hurtownia_id>1</hurtownia_id>
+      <faktura_id>12</faktura_id>
+    </zamowienie>
+    <zamowienie id="13">
+      <data>01.01.2020 00:00:00</data>
+      <hurtownia_id>9</hurtownia_id>
+      <faktura_id>13</faktura_id>
+    </zamowienie>
+    <zamowienie id="14">
+      <data>01.01.2020 00:00:00</data>
+      <hurtownia_id>16</hurtownia_id>
+      <faktura_id>14</faktura_id>
+    </zamowienie>
+    <zamowienie id="15">
+      <data>01.01.2020 00:00:00</data>
+      <hurtownia_id>8</hurtownia_id>
+      <faktura_id>15</faktura_id>
+    </zamowienie>
+    <zamowienie id="16">
+      <data>01.01.2020 00:00:00</data>
+      <hurtownia_id>9</hurtownia_id>
+      <faktura_id>16</faktura_id>
+    </zamowienie>
+    <zamowienie id="17">
+      <data>01.01.2020 00:00:00</data>
+      <hurtownia_id>10</hurtownia_id>
+      <faktura_id>17</faktura_id>
+    </zamowienie>
+    <zamowienie id="18">
+      <data>01.01.2020 00:00:00</data>
+      <hurtownia_id>8</hurtownia_id>
+      <faktura_id>18</faktura_id>
+    </zamowienie>
+    <zamowienie id="19">
+      <data>01.01.2020 00:00:00</data>
+      <hurtownia_id>19</hurtownia_id>
+      <faktura_id>19</faktura_id>
+    </zamowienie>
+    <zamowienie id="20">
+      <data>01.01.2020 00:00:00</data>
+      <hurtownia_id>10</hurtownia_id>
+      <faktura_id>20</faktura_id>
+    </zamowienie>
+  </zamowienie_lista>
+  <pozycja_zamowienia_lista>
+    <pozycja_zamowienia>
+      <produkt_id>11</produkt_id>
+      <zamowienie_id>1</zamowienie_id>
+      <ilosc>16</ilosc>
+      <cena>15,22</cena>
+    </pozycja_zamowienia>
+    <pozycja_zamowienia>
+      <produkt_id>12</produkt_id>
+      <zamowienie_id>2</zamowienie_id>
+      <ilosc>2</ilosc>
+      <cena>39,51</cena>
+    </pozycja_zamowienia>
+    <pozycja_zamowienia>
+      <produkt_id>7</produkt_id>
+      <zamowienie_id>3</zamowienie_id>
+      <ilosc>3</ilosc>
+      <cena>121,4</cena>
+    </pozycja_zamowienia>
+    <pozycja_zamowienia>
+      <produkt_id>7</produkt_id>
+      <zamowienie_id>4</zamowienie_id>
+      <ilosc>12</ilosc>
+      <cena>36,12</cena>
+    </pozycja_zamowienia>
+    <pozycja_zamowienia>
+      <produkt_id>1</produkt_id>
+      <zamowienie_id>5</zamowienie_id>
+      <ilosc>2</ilosc>
+      <cena>110,58</cena>
+    </pozycja_zamowienia>
+    <pozycja_zamowienia>
+      <produkt_id>11</produkt_id>
+      <zamowienie_id>6</zamowienie_id>
+      <ilosc>10</ilosc>
+      <cena>14</cena>
+    </pozycja_zamowienia>
+    <pozycja_zamowienia>
+      <produkt_id>16</produkt_id>
+      <zamowienie_id>7</zamowienie_id>
+      <ilosc>1</ilosc>
+      <cena>111,56</cena>
+    </pozycja_zamowienia>
+    <pozycja_zamowienia>
+      <produkt_id>3</produkt_id>
+      <zamowienie_id>8</zamowienie_id>
+      <ilosc>3</ilosc>
+      <cena>14,8</cena>
+    </pozycja_zamowienia>
+    <pozycja_zamowienia>
+      <produkt_id>5</produkt_id>
+      <zamowienie_id>9</zamowienie_id>
+      <ilosc>3</ilosc>
+      <cena>2,15</cena>
+    </pozycja_zamowienia>
+    <pozycja_zamowienia>
+      <produkt_id>18</produkt_id>
+      <zamowienie_id>10</zamowienie_id>
+      <ilosc>7</ilosc>
+      <cena>30,27</cena>
+    </pozycja_zamowienia>
+    <pozycja_zamowienia>
+      <produkt_id>18</produkt_id>
+      <zamowienie_id>11</zamowienie_id>
+      <ilosc>3</ilosc>
+      <cena>25,41</cena>
+    </pozycja_zamowienia>
+    <pozycja_zamowienia>
+      <produkt_id>1</produkt_id>
+      <zamowienie_id>12</zamowienie_id>
+      <ilosc>9</ilosc>
+      <cena>1,17</cena>
+    </pozycja_zamowienia>
+    <pozycja_zamowienia>
+      <produkt_id>7</produkt_id>
+      <zamowienie_id>13</zamowienie_id>
+      <ilosc>1</ilosc>
+      <cena>12,25</cena>
+    </pozycja_zamowienia>
+    <pozycja_zamowienia>
+      <produkt_id>12</produkt_id>
+      <zamowienie_id>14</zamowienie_id>
+      <ilosc>16</ilosc>
+      <cena>15,16</cena>
+    </pozycja_zamowienia>
+    <pozycja_zamowienia>
+      <produkt_id>18</produkt_id>
+      <zamowienie_id>15</zamowienie_id>
+      <ilosc>3</ilosc>
+      <cena>13,36</cena>
+    </pozycja_zamowienia>
+    <pozycja_zamowienia>
+      <produkt_id>14</produkt_id>
+      <zamowienie_id>16</zamowienie_id>
+      <ilosc>1</ilosc>
+      <cena>7,12</cena>
+    </pozycja_zamowienia>
+    <pozycja_zamowienia>
+      <produkt_id>1</produkt_id>
+      <zamowienie_id>17</zamowienie_id>
+      <ilosc>4</ilosc>
+      <cena>4,97</cena>
+    </pozycja_zamowienia>
+    <pozycja_zamowienia>
+      <produkt_id>8</produkt_id>
+      <zamowienie_id>18</zamowienie_id>
+      <ilosc>2</ilosc>
+      <cena>14,72</cena>
+    </pozycja_zamowienia>
+    <pozycja_zamowienia>
+      <produkt_id>2</produkt_id>
+      <zamowienie_id>19</zamowienie_id>
+      <ilosc>6</ilosc>
+      <cena>2,68</cena>
+    </pozycja_zamowienia>
+    <pozycja_zamowienia>
+      <produkt_id>10</produkt_id>
+      <zamowienie_id>20</zamowienie_id>
+      <ilosc>4</ilosc>
+      <cena>14,88</cena>
+    </pozycja_zamowienia>
+  </pozycja_zamowienia_lista>
+</sklep>
